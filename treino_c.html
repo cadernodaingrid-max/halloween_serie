@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino C: Corpo Inteiro (Bi-Set)</title>
+
+    <style>
+        body {
+            /* Adiciona um gradiente linear semi-transparente SOBRE a imagem de fundo */
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                        url('subpages.jpg') no-repeat center center fixed;
+            
+            background-size: cover;
+            font-family: sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            /* Centraliza verticalmente o conteúdo (se a página for menor que a tela) */
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto; 
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            color: #FFFFFF;
+            text-align: center; 
+        }
+
+        h1, h2, h4, p {
+            color: #FFFFFF;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+        }
+
+        /* Estilo para as Observações (Aquecimento, Cardio e Regras) */
+        .observacao {
+            background-color: rgba(255, 255, 255, 0.90);
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px auto 30px auto; 
+            color: #333;
+            text-align: left;
+            line-height: 1.5;
+            border-left: 5px solid #E65100;
+            max-width: 90%;
+        }
+
+        .observacao h4 {
+            color: #333; 
+            text-shadow: none;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .observacao p {
+            color: #333;
+            text-shadow: none;
+            margin: 5px 0;
+            text-align: justify; /* Alinhamento Justificado */
+        }
+        
+        /* Estilos para lista de exercícios */
+        .exercicios-lista {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 90%;
+            text-align: left;
+        }
+
+        /* Contêiner que agrupa os dois exercícios de um Bi-Set */
+        .biset-container {
+            border: 2px solid #E65100; /* Borda laranja para agrupar */
+            border-radius: 5px;
+            margin-bottom: 25px; /* Espaço maior entre Bi-Sets */
+            padding: 0; 
+        }
+
+        .biset-container h4 {
+            background-color: #E65100;
+            color: white;
+            padding: 5px 15px;
+            margin: 0;
+            border-radius: 3px 3px 0 0;
+            text-shadow: none;
+        }
+
+        .exercicios-lista li {
+            background-color: rgba(255, 255, 255, 0.90); 
+            padding: 15px;
+            margin: 0; /* Remove margem dos itens internos para encostar na div */
+            border-radius: 0; 
+            font-size: 1.1em;
+            color: #333; 
+            border-left: none; /* Remove a borda laranja dupla */
+            border-bottom: 1px solid #ddd; /* Linha divisória entre o par */
+            line-height: 1.4;
+            display: flex;
+            align-items: center;
+        }
+        /* Arredondar a borda inferior do último item do Bi-Set */
+        .biset-container li:last-child {
+            border-bottom: none;
+            border-radius: 0 0 3px 3px;
+        }
+        
+        /* Estilos de Checkbox e Tachar */
+        li input[type="checkbox"] {
+            margin-right: 15px; 
+            min-width: 20px; 
+            height: 20px;
+            cursor: pointer;
+        }
+
+        li label {
+            flex-grow: 1; 
+            cursor: pointer;
+        }
+        
+        li input[type="checkbox"]:checked + label {
+            text-decoration: line-through; 
+            color: #999;
+            transition: color 0.3s;
+        }
+        
+        li input[type="checkbox"]:checked + label .details {
+             color: #bbb;
+        }
+        
+        .details {
+            display: block; 
+            font-size: 0.9em;
+            font-weight: normal;
+            color: #666; 
+        }
+
+        .voltar-btn {
+            display: inline-block;
+            margin-top: 30px;
+            text-decoration: none;
+            color: white;
+            background-color: #E65100;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.1s, transform 0.1s, box-shadow 0.1s;
+            box-shadow: 0 4px 0 #BF360C; 
+        }
+
+        .voltar-btn:active {
+            box-shadow: 0 1px 0 #BF360C; 
+            transform: translateY(3px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Treinos de Força (Musculação)</h1>
+        <h2>Treino C: Corpo Inteiro - Bi-Set</h2>
+
+        <div class="observacao">
+            <h4><strong>Aquecimento:</strong></h4>
+            <p>1. <b>Cardio Leve:</b> 5–10 minutos (Esteira, Bicicleta, ou Elíptico).</p>
+            <p>2. <b>Mobilidade Dinâmica:</b> 5 minutos (Foco nas articulações que serão utilizadas no treino do dia).</p>
+        </div>
+
+        <section>
+            <h2>Regras de Bi-Set</h2>
+            <div class="observacao" style="margin-top: 0; margin-bottom: 30px;">
+                <p><b>Descanso:</b> 0s entre os exercícios de um mesmo Bi-Set (realize em sequência).</p>
+                <p><b>Descanso:</b> 45–60s entre os Bi-Sets completos.</p>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Exercícios do Dia</h2>
+            <ul class="exercicios-lista">
+                
+                <div class="biset-container">
+                    <h4>BI-SET 1: Membros Inferiores + Dorsais</h4>
+                    <li>
+                        <input type="checkbox" id="ex1_c">
+                        <label for="ex1_c">
+                            Cadeira Extensora (Máquina)
+                            <span class="details">3 séries de 12–15 repetições.</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="ex2_c">
+                        <label for="ex2_c">
+                            Remada Curvada (Halteres/Barra)
+                            <span class="details">3 séries de 10–12 repetições.</span>
+                        </label>
+                    </li>
+                </div>
+
+                <div class="biset-container">
+                    <h4>BI-SET 2: Peito + Posteriores de Coxa</h4>
+                    <li>
+                        <input type="checkbox" id="ex3_c">
+                        <label for="ex3_c">
+                            Supino Reto com Halteres
+                            <span class="details">3 séries de 10–12 repetições.</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="ex4_c">
+                        <label for="ex4_c">
+                            Stiff com Halteres
+                            <span class="details">3 séries de 10–12 repetições.</span>
+                        </label>
+                    </li>
+                </div>
+
+                <div class="biset-container">
+                    <h4>BI-SET 3: Ombros + Membros Inferiores</h4>
+                    <li>
+                        <input type="checkbox" id="ex5_c">
+                        <label for="ex5_c">
+                            Desenvolvimento com Halteres (Sentado)
+                            <span class="details">3 séries de 12–15 repetições.</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="ex6_c">
+                        <label for="ex6_c">
+                            Afundo (Lunge) com Halteres
+                            <span class="details">3 séries de 10–12 repetições por perna.</span>
+                        </label>
+                    </li>
+                </div>
+                
+                <li style="margin-bottom: 10px;">
+                    <input type="checkbox" id="ex7_c">
+                    <label for="ex7_c">
+                        Prancha (Alternada Braço/Perna)
+                        <span class="details">3 séries de 45–60 segundos.</span>
+                    </label>
+                </li>
+            </ul>
+        </section>
+
+        <h2>Cardio Após o Treino</h2>
+        <div class="observacao">
+            <p>Alternar entre as opções ao longo da semana:</p>
+            <p>1. <b>Opção A - HIIT (Alta Intensidade):</b> 15–20 minutos. (30s de sprint / 60s de recuperação ativa. Repetir 8–10 vezes.)</p>
+            <p>2. <b>Opção B - LISS (Baixa/Média Intensidade):</b> 25–40 minutos. (Ritmo constante e moderado.)</p>
+        </div>
+        
+        <a href="index.html" class="voltar-btn">← Voltar para a Lista de Treinos</a>
+    </div>
+
+</body>
+</html>
