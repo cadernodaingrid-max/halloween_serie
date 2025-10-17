@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino C: Membros Inferiores - Ênfase Posterior</title>
+
+    <style>
+        body {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                        url('fire_1.jpg') no-repeat center center fixed;
+            
+            background-size: cover;
+            font-family: sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto; 
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            color: #FFFFFF;
+            text-align: center; 
+        }
+
+        h1, h2, h4, p {
+            color: #FFFFFF;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+        }
+
+
+        .observacao {
+            background-color: rgba(255, 255, 255, 0.90);
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px auto 30px auto; 
+            color: #333;
+            text-align: left;
+            line-height: 1.5;
+            border-left: 5px solid #E65100;
+            max-width: 90%;
+        }
+
+        .observacao h4 {
+            color: #333; 
+            text-shadow: none;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .observacao p {
+            color: #333;
+            text-shadow: none;
+            margin: 5px 0;
+            text-align: justify;
+        }
+        
+        /* Estilos para lista de exercícios */
+        .exercicios-lista {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 90%;
+            text-align: left;
+        }
+
+        /* Contêiner que agrupa os dois exercícios de um Bi-Set */
+        .biset-container {
+            border: 2px solid #E65100; /* Borda laranja para agrupar */
+            border-radius: 5px;
+            margin-bottom: 25px;
+            padding: 0; 
+        }
+
+        .biset-container h4 {
+            background-color: #E65100;
+            color: white;
+            padding: 5px 15px;
+            margin: 0;
+            border-radius: 3px 3px 0 0;
+            text-shadow: none;
+        }
+
+        .exercicios-lista li {
+            background-color: rgba(255, 255, 255, 0.90); 
+            padding: 15px;
+            margin: 0;
+            border-radius: 0; 
+            font-size: 1.1em;
+            color: #333; 
+            border-left: none;
+            border-bottom: 1px solid #ddd;
+            line-height: 1.4;
+            display: flex;
+            align-items: center;
+        }
+        
+        .biset-container li:last-child {
+            border-bottom: none;
+            border-radius: 0 0 3px 3px;
+        }
+        
+        /* Estilos de Checkbox e Tachar */
+        li input[type="checkbox"] {
+            margin-right: 15px; 
+            min-width: 20px; 
+            height: 20px;
+            cursor: pointer;
+        }
+
+        li label {
+            flex-grow: 1; 
+            cursor: pointer;
+        }
+        
+        li input[type="checkbox"]:checked + label {
+            text-decoration: line-through; 
+            color: #999;
+            transition: color 0.3s;
+        }
+        
+        li input[type="checkbox"]:checked + label .details {
+             color: #bbb;
+        }
+        
+        .details {
+            display: block; 
+            font-size: 0.9em;
+            font-weight: normal;
+            color: #666; 
+        }
+
+        .voltar-btn {
+            display: inline-block;
+            margin-top: 30px;
+            text-decoration: none;
+            color: white;
+            background-color: #E65100;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.1s, transform 0.1s, box-shadow 0.1s;
+            box-shadow: 0 4px 0 #BF360C; 
+        }
+
+        .voltar-btn:active {
+            box-shadow: 0 1px 0 #BF360C; 
+            transform: translateY(3px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Treinos de Força (Musculação)</h1>
+        <h2>Treino C: Membros Inferiores - Ênfase Posterior</h2>
+
+        <div class="observacao">
+            <h4><strong>Aquecimento:</strong></h4>
+            <p>1. <b>Cardio Leve:</b> 5–10 minutos (Esteira, Bicicleta, ou Elíptico).</p>
+            <p>2. <b>Mobilidade Dinâmica:</b> 5 minutos (Foco nas articulações que serão utilizadas no treino do dia).</p>
+        </div>
+        
+        <section>
+            <h2>Exercícios do Dia</h2>
+            <ul class="exercicios-lista">
+
+		<li style="margin-bottom: 20px;">
+                    <input type="checkbox" id="ex1_a">
+                    <label for="ex1_a">
+                        Stiff (Barra/Halteres)
+                        <span class="details">4 séries de 8–12 reps (TUT 4s)</span>
+                    </label>
+                </li>
+                
+
+                <div class="biset-container">
+                    <h4>BI-SET 1:</h4>
+                    <li>
+                        <input type="checkbox" id="ex_b1a">
+                        <label for="ex_b1a">
+                            Cadeira Flexora
+                            <span class="details">3 séries de 12–15 repetições (&#x271A; Drop-set).</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="ex_b1b">
+                        <label for="ex_b1b">
+                            Glúteo no Cabo (Kickback)
+                            <span class="details">3 séries de 15–20 repetições (Pico 2s).</span>
+                        </label>
+                    </li>
+                </div>
+
+                <div class="biset-container">
+                    <h4>BI-SET 2:</h4>
+                    <li>
+                        <input type="checkbox" id="ex_b2a">
+                        <label for="ex_b2a">
+                            Cadeira Adutora
+                            <span class="details">3 séries de 15–20 repetições.</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="ex_b2b">
+                        <label for="ex_b2b">
+                            Cadeira Abdutora
+                            <span class="details">3 séries de 15–20 repetições.</span>
+                        </label>
+                    </li>
+                </div>
+
+                <div class="biset-container">
+                    <h4>BI-SET 3:</h4>
+                    <li>
+                        <input type="checkbox" id="ex_b3a">
+                        <label for="ex_b3a">
+                            Leg Press (Pés Altos)
+                            <span class="details">3 séries de 10–15 repetições.</span>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="ex_b3b">
+                        <label for="ex_b3b">
+                            Panturrilha em Pé
+                            <span class="details">3 séries de 15–20 repetições.</span>
+                        </label>
+                    </li>
+                </div>
+                
+                <li style="margin-bottom: 10px;">
+                    <input type="checkbox" id="ex5">
+                    <label for="ex5">
+                        Panturrilha Sentado
+                        <span class="details">3 séries de 15–20 repetições.</span>
+                    </label>
+                </li>
+            </ul>
+        </section>
+
+        <h2>Cardio Após o Treino</h2>
+        <div class="observacao">
+
+            <p>&#127939; <b>LISS (Baixa/Média Intensidade):</b> 25–40 minutos. (Ritmo constante e moderado.)</p>
+
+        </div>
+        
+        <a href="index.html" class="voltar-btn">← Voltar para a Lista de Treinos</a>
+    </div>
+
+</body>
+</html>
