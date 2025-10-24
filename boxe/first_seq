@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino de Boxe</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: sans-serif;
+            background-color: #333;
+            color: #f0f0f0; 
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        #container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 80%; 
+        }
+        #exercicio-atual {
+            font-size: 8vw;
+            font-weight: bold;
+            text-align: center;
+            color: #fff;
+            padding: 20px;
+            max-width: 90%;
+            word-wrap: break-word;
+            line-height: 1.2;
+            min-height: 100px;
+        }
+        #proximo-btn {
+            padding: 15px 30px;
+            font-size: 1.5em;
+            cursor: pointer;
+            background-color: #e62e00;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+        #proximo-btn:hover {
+            background-color: #cc2800;
+        }
+        #info-rodape {
+            position: absolute;
+            bottom: 10px;
+            font-size: 1em;
+            color: #aaa;
+        }
+
+        @media (max-width: 600px) {
+            #exercicio-atual {
+                font-size: 10vw;
+            }
+            #proximo-btn {
+                font-size: 1.2em;
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <div id="exercicio-atual"></div>
+        <button id="proximo-btn" onclick="proximoExercicio()">&#128074; DONE!!!</button>
+    </div>
+
+    <div id="info-rodape">
+        Treino de Boxe - Cardio do Fim de Semana
+    </div>
+
+    <script>
+    // Array com todos os exercícios do treino na ordem
+    const treino = [
+        // Aquecimento
+        "AQUECIMENTO: Pular Corda (3 min)",
+        "AQUECIMENTO: Mobilidade (1 min)",
+        "AQUECIMENTO: Shadow Box (1 min)",
+
+        // Round 1
+        "ROUND 1 - Sequência 1 (1 min): Direto → Direto",
+        "ROUND 1 - L-sit hold (30 seg)",
+        "ROUND 1 - Sequência 2 (1 min): Direto → Jab → Hook Mão da frente → Direto",
+        "ROUND 1 - V-up → Superman (30 seg)",
+
+        // Round 2
+        "ROUND 2 - Sequência 1 (1 min): Gancho Mão da frente → Hook Mão da frente",
+        "ROUND 2 - Crunches (30 seg)",
+        "ROUND 2 - Sequência 2 (1 min): Direto → Hook Mão da frente → Gancho Mão da frente → Gancho Mão de trás → Jab",
+        "ROUND 2 - Prancha Ventral (30 seg)",
+
+        // Round 3
+        "ROUND 3 - Sequência 1 (1 min): Hook Mão de trás → Direto",
+        "ROUND 3 - Prancha Alta (30 seg)",
+        "ROUND 3 - Sequência 2 (1 min): Gancho Mão de trás → Direto → Hook Mão da frente → Gancho Mão de trás → Hook Mão de trás",
+        "ROUND 3 - Remador (30 seg)",
+
+        // Round 4
+        "ROUND 4 - Sequência 1 (1 min): Gancho Mão de trás → Direto",
+        "ROUND 4 - Remador (30 seg)",
+        "ROUND 4 - Sequência 2 (1 min): Direto → Gancho Mão da frente → Gancho Mão de trás → Jab → Direto",
+        "ROUND 4 - L-sit hold (30 seg)",
+
+        // Round 5
+        "ROUND 5 - Sequência 1 (1 min): Hook Mão de trás → Hook Mão da frente",
+        "ROUND 5 - Hollow (30 seg)",
+        "ROUND 5 - Sequência 2 (1 min): Direto → Gancho Mão da frente → Jab → Jab → Gancho Mão da frente",
+        "ROUND 5 - Pêndulo (30 seg)",
+        
+        // Fim
+        "FIM DO TREINO."
+    ];
+
+    let indiceAtual = 0;
+    let elementoExercicio;
+    let elementoBotao;
+
+    // Função para exibir o exercício
+    function exibirExercicio(indice) {
+        if (!elementoExercicio) return;
+        const texto = treino[indice];
+        elementoExercicio.innerHTML = texto;
+    }
+
+    // Função para passar para o próximo
+    function proximoExercicio() {
+        if (!elementoExercicio || !elementoBotao) return;
+
+        if (indiceAtual < treino.length - 1) {
+            indiceAtual++;
+            exibirExercicio(indiceAtual);
+            elementoBotao.textContent = 'PRÓXIMO';
+        } else if (indiceAtual === treino.length - 1) {
+            elementoExercicio.innerHTML = treino[indiceAtual]; // Exibe a mensagem de fim
+            elementoBotao.style.display = 'none'; // Esconde o botão ao terminar
+        }
+    }
+
+
+    document.addEventListener('DOMContentLoaded', (event) => {
+        elementoExercicio = document.getElementById('exercicio-atual');
+        elementoBotao = document.getElementById('proximo-btn');
+        
+        if (elementoExercicio && elementoBotao) {
+            exibirExercicio(indiceAtual);
+            elementoBotao.onclick = proximoExercicio; // Atribui o evento de clique
+        } else {
+            console.error("Erro: Elementos 'exercicio-atual' ou 'proximo-btn' não encontrados.");
+
+            // Mensagem de erro
+            document.body.innerHTML = '<h1 style="color:red; font-size: 5vw;">ERRO AO CARREGAR A PÁGINA. Por favor, verifique o código HTML.</h1>';
+        }
+    });
+</script>
+
+</body>
+</html>
+
+</body>
+</html>
