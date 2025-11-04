@@ -4,70 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Treino de Boxe</title>
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: sans-serif;
-            background-color: #333;
-            color: #f0f0f0; 
-            padding: 10px;
-            box-sizing: border-box;
-        }
-        #container {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            height: 80%; 
-        }
-        #exercicio-atual {
-            font-size: 8vw;
-            font-weight: bold;
-            text-align: center;
-            color: #fff;
-            padding: 20px;
-            max-width: 90%;
-            word-wrap: break-word;
-            line-height: 1.2;
-            min-height: 100px;
-        }
-        #proximo-btn {
-            padding: 15px 30px;
-            font-size: 1.5em;
-            cursor: pointer;
-            background-color: #e62e00;
-            color: white;
-            border: none;
-            border-radius: 8px;
-            margin-top: 20px;
-            transition: background-color 0.3s;
-        }
-        #proximo-btn:hover {
-            background-color: #cc2800;
-        }
-        #info-rodape {
-            position: absolute;
-            bottom: 10px;
-            font-size: 1em;
-            color: #aaa;
-        }
-
-        @media (max-width: 600px) {
-            #exercicio-atual {
-                font-size: 10vw;
-            }
-            #proximo-btn {
-                font-size: 1.2em;
-                padding: 10px 20px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="boxe_style.css">
+    
 </head>
 <body>
 
@@ -81,7 +19,6 @@
     </div>
 
     <script>
-    // Array com todos os exercícios do treino na ordem
     const treino = [
         // Aquecimento
         "AQUECIMENTO: Pular Corda (3 min)",
@@ -142,8 +79,8 @@
             exibirExercicio(indiceAtual);
             elementoBotao.textContent = 'PRÓXIMO';
         } else if (indiceAtual === treino.length - 1) {
-            elementoExercicio.innerHTML = treino[indiceAtual]; // Exibe a mensagem de fim
-            elementoBotao.style.display = 'none'; // Esconde o botão ao terminar
+            elementoExercicio.innerHTML = treino[indiceAtual];
+            elementoBotao.style.display = 'none';
         }
     }
 
@@ -154,7 +91,7 @@
         
         if (elementoExercicio && elementoBotao) {
             exibirExercicio(indiceAtual);
-            elementoBotao.onclick = proximoExercicio; // Atribui o evento de clique
+            elementoBotao.onclick = proximoExercicio;
         } else {
             console.error("Erro: Elementos 'exercicio-atual' ou 'proximo-btn' não encontrados.");
 
