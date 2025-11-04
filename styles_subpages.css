@@ -109,6 +109,14 @@ body {
             color: #666; 
         }
 
+        .details_ {
+            display: block;
+            font-size: 0.7em;
+            font-weight: normal;
+            color:#8B4513;
+            text-indent: 20px;
+        }
+
         .voltar-btn {
             display: inline-block;
             margin-top: 30px;
