@@ -1,13 +1,13 @@
+
 let indiceAtual = 0;
 let elementoExercicio;
 let elementoBotao;
+let elementoRetorno;
 
 // Função para exibir o exercício
 function exibirExercicio(indice) {
-
     if (!elementoExercicio || !window.treino || window.treino.length === 0) return; 
     
-
     const texto = window.treino[indice]; 
     elementoExercicio.innerHTML = texto;
 }
@@ -20,15 +20,20 @@ function proximoExercicio() {
         indiceAtual++;
         exibirExercicio(indiceAtual);
         
-        // Altera o texto do botão na primeira vez
-        if (elementoBotao.textContent.trim().includes('DONE') || elementoBotao.textContent.trim().includes('INICIAR')) {
+
+        if (elementoBotao.textContent.trim().includes('INICIAR') || elementoBotao.textContent.trim().includes('DONE')) {
             elementoBotao.textContent = 'PRÓXIMO';
         }
 
     } else if (indiceAtual === window.treino.length - 1) {
-        // Ao chegar no último item
+        // Ao chegar no último item ("FIM DO TREINO.")
         elementoExercicio.innerHTML = window.treino[indiceAtual];
-        elementoBotao.style.display = 'none';
+        
+        elementoBotao.style.display = 'none'; 
+        
+        if (elementoRetorno) {
+            elementoRetorno.style.display = 'block'; 
+        }
     }
 }
 
@@ -36,6 +41,7 @@ function proximoExercicio() {
 document.addEventListener('DOMContentLoaded', (event) => {
     elementoExercicio = document.getElementById('exercicio-atual');
     elementoBotao = document.getElementById('proximo-btn');
+    elementoRetorno = document.getElementById('retorno-btn'); 
     
     // Checagem de erro para a lista de exercícios
     if (!window.treino || !Array.isArray(window.treino) || window.treino.length === 0) {
