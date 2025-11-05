@@ -1,7 +1,5 @@
 body {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                        url('subpages.jpg') no-repeat center center fixed;
-            
+            background-color: #000080;
             background-size: cover;
             font-family: sans-serif;
             color: #333;
