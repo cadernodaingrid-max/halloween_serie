@@ -59,48 +59,10 @@
         "FIM DO TREINO."
     ];
 
-    let indiceAtual = 0;
-    let elementoExercicio;
-    let elementoBotao;
-
-    // Função para exibir o exercício
-    function exibirExercicio(indice) {
-        if (!elementoExercicio) return;
-        const texto = treino[indice];
-        elementoExercicio.innerHTML = texto;
-    }
-
-    // Função para passar para o próximo
-    function proximoExercicio() {
-        if (!elementoExercicio || !elementoBotao) return;
-
-        if (indiceAtual < treino.length - 1) {
-            indiceAtual++;
-            exibirExercicio(indiceAtual);
-            elementoBotao.textContent = 'PRÓXIMO';
-        } else if (indiceAtual === treino.length - 1) {
-            elementoExercicio.innerHTML = treino[indiceAtual];
-            elementoBotao.style.display = 'none';
-        }
-    }
-
-
-    document.addEventListener('DOMContentLoaded', (event) => {
-        elementoExercicio = document.getElementById('exercicio-atual');
-        elementoBotao = document.getElementById('proximo-btn');
-        
-        if (elementoExercicio && elementoBotao) {
-            exibirExercicio(indiceAtual);
-            elementoBotao.onclick = proximoExercicio;
-        } else {
-            console.error("Erro: Elementos 'exercicio-atual' ou 'proximo-btn' não encontrados.");
-
-            // Mensagem de erro
-            document.body.innerHTML = '<h1 style="color:red; font-size: 5vw;">ERRO AO CARREGAR A PÁGINA. Por favor, verifique o código HTML.</h1>';
-        }
-    });
 </script>
 
+<script src="treino_script.js"></script>
+    
 </body>
 </html>
 
