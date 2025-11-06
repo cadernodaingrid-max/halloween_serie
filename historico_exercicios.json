@@ -2,105 +2,301 @@
   "Agachamento na Máquina Smith": [
     {
       "data": "03/11/2025",
-      "cargas_kg": "Barra livre: CS 0kg 3x4, 2.5kg, 2.5kg e CS 5kg 3x4",
-      "tecnica": "Barra Livre / Cluster Set (CS)",
-      "repeticoes": [12, 12, 12, 12]
+      "cargas_kg": "0kg, 2.5kg, 2.5kg, 5kg",
+      "tecnica": "Barra Livre / Cluster Set (1ª e 4ª séries)",
+      "repeticoes": ["3x4, 12, 12, 3x4"]
     },
     {
       "data": "20/10/2025",
-      "cargas_kg": "Smith: 0kg, 2.5kg, 5kg e 5kg",
-      "tecnica": "TUT",
-      "repeticoes": [10, 10, 10, 10]
+      "cargas_kg": "0kg, 2.5kg, 5kg e 5kg",
+      "tecnica": "Smith, TUT",
+      "repeticoes": ["12, 12, 12, 12"]
     },
     {
       "data": "13/10/2025",
-      "cargas_kg": "Barra livre: 0kg",
-      "tecnica": "RP",
-      "repeticoes": [10, 10, 10, 10]
+      "cargas_kg": "0kg",
+      "tecnica": "RP, barra livre",
+      "repeticoes": ["12, 12, 12, 12, 3, 2"]
     }
   ],
-  
   "Leg Press Horizontal": [
     {
       "data": "03/11/2025",
       "cargas_kg": "45kg, 47.5kg, 50kg",
-      "tecnica": "Cluster Set (CS) na 3ª série (3x4)",
-      "repeticoes": [12, 12, 12]
+      "tecnica": "Cluster Set na 3ª série",
+      "repeticoes": ["12, 12, 3x4"]
     },
     {
       "data": "20/10/2025",
       "cargas_kg": "37.5kg, 45kg, 50kg",
       "tecnica": "Normal",
-      "repeticoes": [10, 10, 10]
+      "repeticoes": ["12, 12, 12"]
     },
     {
       "data": "13/10/2025",
       "cargas_kg": "35kg",
       "tecnica": "Normal",
-      "repeticoes": [10, 10, 10]
+      "repeticoes": ["12, 12, 12"]
     }
   ],
-  
   "Cadeira Extensora": [
     {
       "data": "03/11/2025",
-      "cargas_kg": "30kg",
-      "tecnica": "DS 20kg",
-      "repeticoes": [15, 12, 12, 5]
+      "cargas_kg": "30kg 1x15 + 2x12. DS 20kg 5x.",
+      "tecnica": "Drop-Set (DS) na 3ª",
+      "repeticoes": ["3x12-15"]
     },
     {
       "data": "20/10/2025",
-      "cargas_kg": "30kg",
-      "tecnica": "TUT na 3ª",
-      "repeticoes": [12, 12, 12]
+      "cargas_kg": "30kg. TUT na última.",
+      "tecnica": "TUT na última",
+      "repeticoes": ["3x12-15"]
     },
     {
       "data": "13/10/2025",
-      "cargas_kg": "30kg",
-      "tecnica": "DS 20kg",
-      "repeticoes": [10, 10, 10, 2]
+      "cargas_kg": "30kg, drop-set 20kg",
+      "tecnica": "Drop-set",
+      "repeticoes": ["3x12-15"]
     }
   ],
-  
   "Cadeira Flexora": [
     {
       "data": "03/11/2025",
-      "cargas_kg": "27.5kg",
-      "tecnica": "RP",
-      "repeticoes": [12, 12, 12, 3, 3]
+      "cargas_kg": "27.5kg. RP 3+3",
+      "tecnica": "Rest-Pause (RP) na 3ª",
+      "repeticoes": ["3x12"]
     },
     {
       "data": "20/10/2025",
-      "cargas_kg": "25kg",
-      "tecnica": "Mesa, DS 20kg",
-      "repeticoes": [12, 12, 12, 8]
+      "cargas_kg": "25kg + DS 20kg (8)",
+      "tecnica": "Drop-Set (DS)",
+      "repeticoes": ["3x10-15"]
     },
     {
       "data": "13/10/2025",
       "cargas_kg": "25kg",
-      "tecnica": " ",
-      "repeticoes": [12, 12, 12]
+      "tecnica": "Normal",
+      "repeticoes": ["3x10-15"]
     }
   ],
-  
-  "Hiperextensão Lombar": [
+  "Hiperextensão na Cadeira Romana": [
     {
-      "data": "03/11/2025",
-      "cargas_kg": "10kg, 0kg",
-      "tecnica": "Carga na 1ª rep",
-      "repeticoes": [10, 10, 10]
+      "data": "Data Não Registrada",
+      "cargas_kg": "3x10",
+      "tecnica": "Normal",
+      "repeticoes": ["3x12-15"]
+    }
+  ],
+  "Supino com Halteres": [
+    {
+      "data": "28/10/2025",
+      "cargas_kg": "10kg. Cluster Set 4x + 3x + 3x. 2x12. Cluster Set 4x + 3x + 5x",
+      "tecnica": "Cluster Set",
+      "repeticoes": ["4x8-10"]
     },
+    {
+      "data": "21/10/2025",
+      "cargas_kg": "9kg. Drop-set: 7kg",
+      "tecnica": "Drop-set",
+      "repeticoes": ["4x8-10"]
+    }
+  ],
+  "Desenvolvimento Militar (Sentado com Halteres)": [
+    {
+      "data": "28/10/2025",
+      "cargas_kg": "8kg. 12 reps em cada série. RP: 1x2",
+      "tecnica": "Rest-Pause (RP)",
+      "repeticoes": ["3x10-12"]
+    },
+    {
+      "data": "21/10/2025",
+      "cargas_kg": "7kg",
+      "tecnica": "Normal",
+      "repeticoes": ["3x10-12"]
+    }
+  ],
+  "Elevação Lateral (Com Halteres ou Cabo)": [
+    {
+      "data": "28/10/2025",
+      "cargas_kg": "3kg TUT. 2x20 + 1x15",
+      "tecnica": "TUT",
+      "repeticoes": ["3x15-20"]
+    },
+    {
+      "data": "21/10/2025",
+      "cargas_kg": "3kg. Todas as séries TUT",
+      "tecnica": "TUT",
+      "repeticoes": ["3x15-20"]
+    }
+  ],
+  "Tríceps Pulley Alto Overhead": [
+    {
+      "data": "28/10/2025",
+      "cargas_kg": "8.25kg na 1ª. 6.75kg no restante. 12x por série",
+      "tecnica": "Normal",
+      "repeticoes": ["3x12-15"]
+    },
+    {
+      "data": "21/10/2025",
+      "cargas_kg": "6.75kg. Última: 8.25kg",
+      "tecnica": "Normal",
+      "repeticoes": ["3x12-15"]
+    }
+  ],
+  "Elevação de Pernas": [
+    {
+      "data": "28/10/2025",
+      "cargas_kg": "3x10 full",
+      "tecnica": "Normal",
+      "repeticoes": ["3x10"]
+    },
+    {
+      "data": "21/10/2025",
+      "cargas_kg": "elevação de pernas sem carga (10x). Tuck. 3s final full.",
+      "tecnica": "Tuck/Isometria",
+      "repeticoes": ["3x10"]
+    }
+  ],
+  "Stiff (Com Halteres ou Barra)": [
+    {
+      "data": "22/10/2025",
+      "cargas_kg": "barra 20kg",
+      "tecnica": "TUT 4s na descida",
+      "repeticoes": ["4x8-12"]
+    }
+  ],
+  "Cadeira Abdutora": [
+    {
+      "data": "22/10/2025",
+      "cargas_kg": "50kg - Pico de Contração na última série",
+      "tecnica": "Pico de Contração 2s",
+      "repeticoes": ["3x10-12"]
+    }
+  ],
+  "Cadeira Flexora (Sentada ou Deitada)": [
+    {
+      "data": "22/10/2025",
+      "cargas_kg": "25kg. 5x Drop-set 20kg",
+      "tecnica": "Rest-Pause / Drop-Set",
+      "repeticoes": ["3x12-15"]
+    }
+  ],
+  "Glúteo no Cabo (Kickback)": [
+    {
+      "data": "22/10/2025",
+      "cargas_kg": "30kg",
+      "tecnica": "Pico de Contração 2s",
+      "repeticoes": ["3x15-20"]
+    }
+  ],
+  "Panturrilha em Pé": [
+    {
+      "data": "22/10/2025",
+      "cargas_kg": "em pé - sem carga",
+      "tecnica": "Normal",
+      "repeticoes": ["4x15-20"]
+    },
+    {
+      "data": "15/10/2025",
+      "cargas_kg": "leg press - 50kg",
+      "tecnica": "Normal",
+      "repeticoes": ["4x15-20"]
+    }
+  ],
+  "Puxada na Polia Alta (Pegada Pronada)": [
+    {
+      "data": "23/10/2025",
+      "cargas_kg": "4x12/33kg",
+      "tecnica": "TUT 4s",
+      "repeticoes": ["3x8-12"]
+    }
+  ],
+  "Remada Baixa (Sentado)": [
+    {
+      "data": "23/10/2025",
+      "cargas_kg": "3x (12, 12, 10 reps)/17.25kg",
+      "tecnica": "Pausa 1s",
+      "repeticoes": ["3x10-12"]
+    }
+  ],
+  "Pull Down (Corda)": [
+    {
+      "data": "23/10/2025",
+      "cargas_kg": "3x12/6.75kg",
+      "tecnica": "Normal",
+      "repeticoes": ["3x12-15"]
+    }
+  ],
+  "Rosca Direta (Barra W ou Halteres)": [
+    {
+      "data": "23/10/2025",
+      "cargas_kg": "3x12/6kg + DS (Barra W 10kg, 8 reps)",
+      "tecnica": "Drop-Set (DS)",
+      "repeticoes": ["3x10-15"]
+    }
+  ],
+  "Rosca Martelo (Halteres)": [
+    {
+      "data": "23/10/2025",
+      "cargas_kg": "3x12/4kg",
+      "tecnica": "Normal",
+      "repeticoes": ["3x10-15"]
+    }
+  ],
+  "Cadeira Extensora (Máquina)": [
     {
       "data": "20/10/2025",
-      "cargas_kg": "0kg",
-      "tecnica": " ",
-      "repeticoes": [10, 10, 10]
-    },
+      "cargas_kg": "30kg em série reta",
+      "tecnica": "Bi-Set",
+      "repeticoes": ["3x12-15"]
+    }
+  ],
+  "Remada Curvada (Halteres/Barra)": [
     {
-      "data": "13/10/2025",
-      "cargas_kg": "0kg",
-      "tecnica": " ",
-      "repeticoes": [10, 10, 10]
+      "data": "Data Não Registrada",
+      "cargas_kg": "Sem dados de carga registrados",
+      "tecnica": "Bi-Set",
+      "repeticoes": ["3x10-12"]
+    }
+  ],
+  "Supino Reto com Halteres": [
+    {
+      "data": "21/10/2025",
+      "cargas_kg": "9kg em série reta",
+      "tecnica": "Bi-Set",
+      "repeticoes": ["3x10-12"]
+    }
+  ],
+  "Stiff com Halteres": [
+    {
+      "data": "22/10/2025",
+      "cargas_kg": "20kg em série reta",
+      "tecnica": "Bi-Set / TUT 4s",
+      "repeticoes": ["3x10-12"]
+    }
+  ],
+  "Elevação Lateral Unilateral": [
+    {
+      "data": "21/10/2025",
+      "cargas_kg": "3kg em série reta bilateral",
+      "tecnica": "Bi-Set",
+      "repeticoes": ["3x12-15"]
+    }
+  ],
+  "Cadeira Abdutora (Treino E)": [
+    {
+      "data": "22/10/2025",
+      "cargas_kg": "50kg em série reta",
+      "tecnica": "Bi-Set",
+      "repeticoes": ["3x15-20"]
+    }
+  ],
+  "Prancha (Alternada Braço/Perna)": [
+    {
+      "data": "Data Não Registrada",
+      "cargas_kg": "Sem carga",
+      "tecnica": "Bi-Set",
+      "repeticoes": ["3x45-60 segundos"]
     }
   ]
 }
