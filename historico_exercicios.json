@@ -4,22 +4,19 @@
       "data": "03/11/2025",
       "cargas_kg": "Barra livre: CS 0kg 3x4, 2.5kg, 2.5kg e CS 5kg 3x4",
       "tecnica": "Barra Livre / Cluster Set (CS)",
-      "repeticoes": [12, 12, 12, 12],
-      "meta_proximo_treino": "Tentar adicionar mais uma repetição em todas as séries com carga, passando de 3x4 para 3x5 no Cluster Set (CS)."
+      "repeticoes": [12, 12, 12, 12]
     },
     {
       "data": "20/10/2025",
       "cargas_kg": "Smith: 0kg, 2.5kg, 5kg e 5kg",
       "tecnica": "TUT",
-      "repeticoes": [10, 10, 10, 10],
-      "meta_proximo_treino": "Na próxima, usar a técnica Cluster Set (CS) para maior intensidade e força na Barra Livre." 
+      "repeticoes": [10, 10, 10, 10]
     },
     {
       "data": "13/10/2025",
       "cargas_kg": "Barra livre: 0kg",
       "tecnica": "RP",
-      "repeticoes": [10, 10, 10, 10],
-      "meta_proximo_treino": " " 
+      "repeticoes": [10, 10, 10, 10]
     }
   ],
   
@@ -28,22 +25,19 @@
       "data": "03/11/2025",
       "cargas_kg": "45kg, 47.5kg, 50kg",
       "tecnica": "Cluster Set (CS) na 3ª série (3x4)",
-      "repeticoes": [12, 12, 12],
-      "meta_proximo_treino": "Manter a carga de 50kg na 3ª série, mas aumentar a repetição do Cluster Set de 3x4 para 3x5."
+      "repeticoes": [12, 12, 12]
     },
     {
       "data": "20/10/2025",
       "cargas_kg": "37.5kg, 45kg, 50kg",
       "tecnica": "Normal",
-      "repeticoes": [10, 10, 10],
-      "meta_proximo_treino": "Tentar incluir o Cluster Set na última série para aumentar o volume de treino."
+      "repeticoes": [10, 10, 10]
     },
     {
       "data": "13/10/2025",
       "cargas_kg": "35kg",
       "tecnica": "Normal",
-      "repeticoes": [10, 10, 10],
-      "meta_proximo_treino": " "
+      "repeticoes": [10, 10, 10]
     }
   ],
   
@@ -52,22 +46,19 @@
       "data": "03/11/2025",
       "cargas_kg": "30kg",
       "tecnica": "DS 20kg",
-      "repeticoes": [15, 12, 12, 5],
-      "meta_proximo_treino": " "
+      "repeticoes": [15, 12, 12, 5]
     },
     {
       "data": "20/10/2025",
       "cargas_kg": "30kg",
       "tecnica": "TUT na 3ª",
-      "repeticoes": [12, 12, 12],
-      "meta_proximo_treino": "Drop-set na série 3."
+      "repeticoes": [12, 12, 12]
     },
     {
       "data": "13/10/2025",
       "cargas_kg": "30kg",
       "tecnica": "DS 20kg",
-      "repeticoes": [10, 10, 10, 2],
-      "meta_proximo_treino": " "
+      "repeticoes": [10, 10, 10, 2]
     }
   ],
   
@@ -76,22 +67,19 @@
       "data": "03/11/2025",
       "cargas_kg": "27.5kg",
       "tecnica": "RP",
-      "repeticoes": [12, 12, 12, 3, 3],
-      "meta_proximo_treino": " "
+      "repeticoes": [12, 12, 12, 3, 3]
     },
     {
       "data": "20/10/2025",
       "cargas_kg": "25kg",
       "tecnica": "Mesa, DS 20kg",
-      "repeticoes": [12, 12, 12, 8],
-      "meta_proximo_treino": " "
+      "repeticoes": [12, 12, 12, 8]
     },
     {
       "data": "13/10/2025",
       "cargas_kg": "25kg",
       "tecnica": " ",
-      "repeticoes": [12, 12, 12],
-      "meta_proximo_treino": " "
+      "repeticoes": [12, 12, 12]
     }
   ],
   
@@ -100,22 +88,19 @@
       "data": "03/11/2025",
       "cargas_kg": "10kg, 0kg",
       "tecnica": "Carga na 1ª rep",
-      "repeticoes": [10, 10, 10],
-      "meta_proximo_treino": "Aumentar o número de repetições, sem carga"
+      "repeticoes": [10, 10, 10]
     },
     {
       "data": "20/10/2025",
       "cargas_kg": "0kg",
       "tecnica": " ",
-      "repeticoes": [10, 10, 10],
-      "meta_proximo_treino": " "
+      "repeticoes": [10, 10, 10]
     },
     {
       "data": "13/10/2025",
       "cargas_kg": "0kg",
       "tecnica": " ",
-      "repeticoes": [10, 10, 10],
-      "meta_proximo_treino": " "
+      "repeticoes": [10, 10, 10]
     }
   ]
 }
