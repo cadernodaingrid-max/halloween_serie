@@ -1,0 +1,83 @@
+{
+  "treino_a": {
+    "titulo": "Treino A: Membros Inferiores",
+    "exercicios": [
+      "Agachamento na Máquina Smith",
+      "Leg Press Horizontal",
+      "Cadeira Extensora",
+      "Cadeira Flexora",
+      "Hiperextensão Lombar"
+    ],
+    "progresso_esperado": {
+        "Agachamento na Máquina Smith": " ",
+        "Leg Press Horizontal": " "
+    }
+  },
+  "treino_b": {
+    "titulo": "Treino B: Superior - Empurrar",
+    "exercicios": [
+      "Supino com Halteres",
+      "Desenvolvimento Militar (Sentado com Halteres)",
+      "Elevação Lateral (Com Halteres ou Cabo)",
+      "Tríceps Pulley Alto Overhead",
+      "Elevação de Pernas"
+    ],
+    "progresso_esperado": {
+        "Supino com Halteres": "Mantenha 10kg. Tente aumentar o volume total de repetições.",
+        "Desenvolvimento Militar (Sentado com Halteres)": "Mantenha 8kg e tente mais 2 repetições no Rest-Pause.",
+        "Elevação Lateral (Com Halteres ou Cabo)": "Focar 100% na técnica TUT.",
+        "Tríceps Pulley Alto Overhead": "Manter 6.75kg.",
+        "Elevação de Pernas": "Manter 3x10 full e adicionar 5s de isometria no final."
+    }
+  },
+  "treino_c": {
+    "titulo": "Treino C: Membros Inferiores - Ênfase Posterior",
+    "exercicios": [
+      "Stiff (Com Halteres ou Barra)",
+      "Cadeira Abdutora",
+      "Cadeira Flexora (Sentada ou Deitada)",
+      "Glúteo no Cabo (Kickback)",
+      "Panturrilha em Pé"
+    ],
+    "progresso_esperado": {
+        "Stiff (Com Halteres ou Barra)": "Suba a carga para 22.5kg e mantenha o TUT 4s na descida. Fazer Cluster Set na última série.",
+        "Cadeira Abdutora": "Use 55kg (se 50kg foi fácil) e foque na exaustão.",
+        "Cadeira Flexora (Sentada ou Deitada)": "Tente 27.5kg para a série inicial.",
+        "Glúteo no Cabo (Kickback)": "Suba para 35kg."
+    }
+  },
+  "treino_d": {
+    "titulo": "Treino D: Superior - Puxar",
+    "exercicios": [
+      "Puxada na Polia Alta (Pegada Pronada)",
+      "Remada Baixa (Sentado)",
+      "Pull Down (Corda)",
+      "Rosca Direta (Barra W ou Halteres)",
+      "Rosca Martelo (Halteres)"
+    ],
+    "progresso_esperado": {
+        "Puxada na Polia Alta (Pegada Pronada)": "Aumentar a carga para 35kg e manter o TUT 4s.",
+        "Remada Baixa (Sentado)": "Aumentar a carga para 20kg e focar na pausa de 1s.",
+        "Rosca Direta (Barra W ou Halteres)": "Tentar 7kg e focar na contração de pico."
+    }
+  },
+  "treino_e": {
+    "titulo": "Treino E: Corpo Inteiro - Bi-Set",
+    "exercicios": [
+      "Cadeira Extensora (Máquina)", 
+      "Remada Curvada (Halteres/Barra)", 
+      "Supino Reto com Halteres", 
+      "Stiff com Halteres", 
+      "Elevação Lateral", 
+      "Cadeira Abdutora", 
+      "Prancha Ventral"
+    ],
+    "progresso_esperado": {
+      "Cadeira Extensora (Máquina)": "Aumentar a carga para 35kg e focar no pico de contração.",
+      "Remada Curvada (Halteres/Barra)": "Tentar carga máxima com boa forma.",
+      "Supino Reto com Halteres": "Aumentar para 10kg.",
+      "Stiff com Halteres": "Fazer TUT 4s e tentar aumentar a carga de 20kg.",
+      "Prancha Ventral": "Manter por 60s e focar na respiração."
+    }
+  }
+}
