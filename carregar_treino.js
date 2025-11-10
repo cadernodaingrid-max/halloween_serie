@@ -13,7 +13,6 @@ async function carregarTreino() {
     const caminhoUrl = window.location.pathname;
     const nomeArquivo = caminhoUrl.substring(caminhoUrl.lastIndexOf('/') + 1, caminhoUrl.lastIndexOf('.'));
     const treinoKey = nomeArquivo;
-    const treinoEstrutura - estrutura[treinoKey];
 
     try {
         const [estrutura, historico] = await Promise.all([
@@ -25,7 +24,7 @@ async function carregarTreino() {
         const listaHTML = document.getElementById('listaExercicios');
         
         if (!treinoEstrutura) {
-            listaHTML.innerHTML = `<p>ALERTA CRÍTICO: Estrutura do treino (${treinoKey}) não encontrada. Verifique o arquivo estrutura_treinos.json.</p>`;
+            listaHTML.innerHTML = `<p>ALERTA CRÍTICO: Estrutura do treino (${treinoKey}) não encontrada. Verifique se a chave existe no arquivo estrutura_treinos.json.</p>`;
             return;
         }
 
@@ -38,14 +37,13 @@ async function carregarTreino() {
             const historicoEx = historico[nomeExercicio] || []; 
             const ultimoRegistro = historicoEx[0];
             const penultimoRegistro = historicoEx[1];
-            const progressao = treinoEstrutura.progresso_esperado[nomeExercicio];
+            const progressao = treinoEstrutura.progresso_esperado && treinoEstrutura.progresso_esperado[nomeExercicio];
 
             htmlGerado += `
                 <div>
                     <h4>${nomeExercicio}</h4>
             `;
             
-
             if (ultimoRegistro) {
                 htmlGerado += `
                     <p class="historico-registro ultimo">
@@ -63,8 +61,7 @@ async function carregarTreino() {
                     </p>
                 `;
             }
-
-          
+            
             if (progressao) {
                 htmlGerado += `
                     <p class="alerta-progresso">
@@ -75,7 +72,6 @@ async function carregarTreino() {
                  htmlGerado += `<p class="alerta-progresso">*** ALERTA CRÍTICO: Meta de progressão não definida no estrutura_treinos.json. Defina uma meta. ***</p>`;
             }
 
-
             htmlGerado += '</div><hr>';
         });
 
@@ -83,7 +79,7 @@ async function carregarTreino() {
 
     } catch (error) {
         console.error("Erro ao carregar dados:", error);
-        document.getElementById('listaExercicios').innerHTML = `<p>Erro crítico: Não foi possível carregar os dados de treino. Verifique se os arquivos JSON existem e estão corretos.</p>`;
+        document.getElementById('listaExercicios').innerHTML = `<p>Erro crítico: Não foi possível carregar os dados de treino. Verifique se os arquivos JSON existem e se estão com a sintaxe perfeita.</p>`;
     }
 }
 
