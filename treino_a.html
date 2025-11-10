@@ -1,101 +1,52 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <title id="pageTitle">Treino de Força</title> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Treino A: Membros Inferiores</title>
-    <link rel="stylesheet" href="styles_subpages.css">
-
+    
+    <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
-    <div class="container">
-        <h1>Treinos de Força (Musculação)</h1>
-        <h2>Treino A: Membros Inferiores</h2>
+    
+    <header>
+        <h1># Treinos de Força (Musculação)</h1>
+        <h2 id="tituloTreino"></h2> 
+    </header>
 
-        <div class="observacao">
-            <h4><strong>Aquecimento:</strong></h4>
-            <p>1. <b>Cardio Leve:</b> 5–10 minutos (Esteira, Bicicleta, ou Elíptico).</p>
-            <p>2. <b>Mobilidade Dinâmica:</b> 5 minutos (Foco nas articulações que serão utilizadas no treino do dia).</p>
-        </div>
+    <hr>
+
+    <section class="aquecimento">
+        <h4>Aquecimento:</h4>
+        <ol>
+            <li>**Cardio Leve:** 5–10 minutos (Esteira, Bicicleta, ou Elíptico).</li>
+            <li>**Mobilidade Dinâmica:** 5 minutos (Foco nas articulações que serão utilizadas no treino do dia, como tornozelos e quadris).</li>
+        </ol>
+    </section>
+    
+    <hr>
+
+    <section class="exercicios-dia">
+        <h2>Exercícios do Dia</h2>
         
-        <section>
-            <h2>Exercícios do Dia</h2>
-            <ul class="exercicios-lista">
-                <li>
-                    <input type="checkbox" id="ex1">
-                    <label for="ex1">
-                        Agachamento na Máquina Smith 
-                        <span class="details">4 séries de 8–12 repetições.</span>
-                        <span class="details_"><b>CLUSTER SET na 1ª e 4ª série.</b> Mantenha a carga de 25kg (ou 30kg se 25kg foi fácil no passado) e force 12 reps no cluster.</span>
-                        <span class="details_"><i>* 13/10 - barra livre 20kg, sem adição de carga</i></span>
-                        <span class="details_"><i>* 20/10 - Smith: 0kg, 2.5kg, 5kg e 5kg (TUT)</i></span>
-                        <span class="details_"><i>* 3/11 - Barra livre 4x12: CS 0kg 3x4, 2.5kg, 2.5kg e CS 5kg 3x4</i></span>
-                    </label>
-                </li>
-                <li>
-                    <input type="checkbox" id="ex2">
-                    <label for="ex2">
-                        Leg Press Horizontal
-                        <span class="details">3 séries de 10–12 repetições.</span>
-                        <span class="details_"><b>CLUSTER SET na 3ª série.</b> Use a carga mais pesada (55kg-60kg).</span>
-                        <span class="details_"><i>* 13/10 - 35kg</i></span>
-                        <span class="details_"><i>* 20/10 - 37.5kg, 45kg, 50kg</i></span>
-                        <span class="details_"><i>* 3/11 (3x12) - 45kg, 47.5kg, 50kg (CS 3x4)</i></span>
-                    </label>
-                </li>
-                <li>
-                    <input type="checkbox" id="ex3">
-                    <label for="ex3">
-                        Cadeira Extensora
-                        <span class="details">3 séries de 12–15 repetições.</span>
-                        <span class="details_"><b>DROP-SET (DS) na 3ª série.</b> Use 30kg → 20kg.</span>
-                        <span class="details_"><i>* 13/10 - 30kg, drop-set 20kg</i></span>
-                        <span class="details_"><i>* 20/10 - 30kg. TUT na última.</i></span>
-                        <span class="details_"><i>* 3/11 - 30kg 1x15 + 2x12. DS 20kg 5x.</i></span>
-                    </label>
-                </li>
-                <li>
-                    <input type="checkbox" id="ex4">
-                    <label for="ex4">
-                        Cadeira Flexora
-                        <span class="details">3 séries de 10–15 repetições.</span>
-                        <span class="details_">  a) REST-PAUSE (RP) na 3ª série</span>
-                        <span class="details_"><i>* 13/10 - 25kg</i></span>
-                        <span class="details_"><i>* 20/10 - 25kg + DS 20kg (8)</i></span>
-                        <span class="details_"><i>* 3/11 (3x12) - 27.5kg. RP 3+3</i></span>
-                    </label>
-                </li>
-                <li>
-                    <input type="checkbox" id="ex5">
-                    <label for="ex5">
-                        Hiperextensão na Cadeira Romana
-                        <span class="details_">3 séries de 12–15 repetições.</span>                        
-                        <span class="details_"><i>* Ainda estou fazendo 3x10</i></span>
-                    </label>
-                </li>
-            </ul>
-        </section>
-
-<br>
-            <h2>Cardio Após o Treino:</h2>
-        <div class="observacao">
-            <p><b>LISS (Baixa/Média Intensidade):</b> 25–40 minutos. (Ritmo constante e moderado.)</p>
+        <div id="listaExercicios">
+            <p>Carregando dados do treino...</p>
         </div>
-        
-        <a href="index.html" class="voltar-btn">← Voltar para a Lista de Treinos</a>
-    </div>
+    </section>
 
+    <hr>
+
+    <section class="cardio-pos">
+        <h2>Cardio Após o Treino</h2>
+        <p>
+            **LISS (Baixa/Média Intensidade):** 25–40 minutos. (Ritmo constante e moderado.)
+        </p>
+    </section>
+    
+    <footer>
+        <a href="index.html">← Voltar para a Lista de Treinos</a>
+    </footer>
+    
+    <script src="carregar_treino.js"></script>
 </body>
-
 </html>
-
-
-
-
-
-
-
-
-
-
-
