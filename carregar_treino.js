@@ -12,15 +12,8 @@ function formatarRegistro(registro, tipo) {
 async function carregarTreino() {
     const caminhoUrl = window.location.pathname;
     const nomeArquivo = caminhoUrl.substring(caminhoUrl.lastIndexOf('/') + 1, caminhoUrl.lastIndexOf('.'));
-
-    const nomeTreinoMap = {
-        'treino_a': 'treino_a',
-        'treino_b': 'treino_b',
-        'treino_e': 'treino_e',
-        'treino_d': 'treino_d',
-        'treino_c': 'treino_c'  
-    };
-    const treinoKey = nomeTreinoMap[nomeArquivo] || nomeArquivo;
+    const treinoKey = nomeArquivo;
+    const treinoEstrutura - estrutura[treinoKey];
 
     try {
         const [estrutura, historico] = await Promise.all([
