@@ -1,86 +1,37 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <title id="pageTitle">Treino de Força</title> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Treino D: Superior - Puxar</title>
-    <link rel="stylesheet" href="styles_subpages.css">
-
+    
+    <link rel="stylesheet" href="styles_subpages.css"> 
 </head>
 <body>
-    <div class="container">
-        <h1>Treinos de Força (Musculação)</h1>
-        <h2>Treino D: Superior - Puxar</h2>
-
-        <div class="observacao">
-            <h4><strong>Aquecimento:</strong></h4>
-            <p>1. <b>Cardio Leve:</b> 5–10 minutos (Esteira, Bicicleta, ou Elíptico).</p>
-            <p>2. <b>Mobilidade Dinâmica:</b> 5 minutos (Foco nas articulações que serão utilizadas no treino do dia).</p>
-        </div>
+    
+    <header>
+        <h1 id="tituloTreino"></h1>
         
-        <section>
-            <h2>Exercícios do Dia</h2>
-            <ul class="exercicios-lista">
-                <li>
-                    <input type="checkbox" id="ex1_d">
-                    <label for="ex1_d">
-                        Puxada na Polia Alta (Pegada Pronada)
-                        <span class="details">3 séries de 8–12 repetições.</span>
-                        <span class="details_"><b>TUT</b>: 4s</span>
-                        <span class="details_">23/10 - 4x12/33kg + TUT 4s</span>
-                    </label>
-                </li>
-                <li>
-                    <input type="checkbox" id="ex2_d">
-                    <label for="ex2_d">
-                        Remada Baixa (Sentado)
-                        <span class="details">3 séries de 10–12 repetições.</span>
-                        <span class="details_">Pausas de 1s</span>
-                        <span class="details_">23/10 - 3x (12, 12, 10 reps)/17.25kg + Pausa 1s</span>
-                    </label>
-                </li>
-                <li>
-                    <input type="checkbox" id="ex3_d">
-                    <label for="ex3_d">
-                        Pull Down (Corda)
-                        <span class="details">3 séries de 12–15 repetições.</span>
-                        <span class="details_">23/10 - 3x12/6.75kg</span>
-                    </label>
-                </li>
-                <li>
-                    <input type="checkbox" id="ex4_d">
-                    <label for="ex4_d">
-                        Rosca Direta (Barra W ou Halteres)
-                        <span class="details">3 séries de 10–15 repetições.</span>
-                        <span class="details_">a) 2 séries normais</span>
-                        <span class="details_">b) <b>Última série:</b><i>Drop-set</i></span>
-                        <span class="details_">23/10 - 3x12/6kg + DS (Barra W 10kg, 8 reps)</span>
-                    </label>
-                </li>
-                <li>
-                    <input type="checkbox" id="ex5_d">
-                    <label for="ex5_d">
-                        Rosca Martelo (Halteres)
-                        <span class="details">3 séries de 10–15 repetições.</span>
-                        <span class="details_">23/10 - 3x12/4kg</span>
-                    </label>
-                </li>
-            </ul>
-        </section>
+    </header>
 
-        <h2>Cardio Após o Treino</h2>
-        <div class="observacao">
-            <p>Alternar entre as opções ao longo da semana:</p>
-            <p><b>LISS (Baixa/Média Intensidade):</b> 25–40 minutos. (Ritmo constante e moderado.)</p>
-                        <span class="details_">23/10 - 25:04 min</span>
-        </div>
+    <hr>
+
+    <section class="exercicios-dia">
+        <h2>Exercícios do Dia</h2>
         
+        <div id="listaExercicios">
+            <p>Carregando dados do treino...</p>
+        </div>
+    </section>
+
+    <hr>
+    
+    <footer>
         <a href="index.html" class="voltar-btn">← Voltar para a Lista de Treinos</a>
-    </div>
+    </footer>
 
+    <br><br>
+    
+    <script src="carregar_treino.js"></script>
 </body>
 </html>
-
-
-
-
