@@ -170,19 +170,19 @@
   "Elevação de Pernas": [
     {
       "data": "5/11/2025",
-      "cargas_kg": "Corpo",
+      "cargas_kg": "Peso Corporal",
       "tecnica": "Full",
       "repeticoes": ["1x12 + 2x10"]
     },
     {
       "data": "28/10/2025",
-      "cargas_kg": "3x10 full",
-      "tecnica": "Normal",
+      "cargas_kg": "Peso Corporal",
+      "tecnica": "Full",
       "repeticoes": ["3x10"]
     },
     {
       "data": "21/10/2025",
-      "cargas_kg": "elevação de pernas sem carga (10x). Tuck. 3s final full.",
+      "cargas_kg": "Peso Corporal",
       "tecnica": "Tuck/Isometria",
       "repeticoes": ["3x10"]
     }
