@@ -1,119 +1,37 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <title id="pageTitle">Treino de Força</title> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Treino E: Corpo Inteiro (Bi-Set)</title>
-    <link rel="stylesheet" href="styles_subpages.css">
-
     
+    <link rel="stylesheet" href="styles_subpages.css"> 
 </head>
 <body>
-    <div class="container">
-        <h1>Treinos de Força (Musculação)</h1>
-        <h2>Treino E: Corpo Inteiro - Bi-Set</h2>
-
-        <div class="observacao">
-            <h4><strong>Aquecimento:</strong></h4>
-            <p>1. <b>Cardio Leve:</b> 5–10 minutos (Esteira, Bicicleta, ou Elíptico).</p>
-            <p>2. <b>Mobilidade Dinâmica:</b> 5 minutos (Foco nas articulações que serão utilizadas no treino do dia).</p>
-        </div>
-
-        <section>
-            <h2>Regras de Bi-Set</h2>
-            <div class="observacao" style="margin-top: 0; margin-bottom: 30px;">
-                <p><b>Descanso:</b> 0s entre os exercícios de um mesmo Bi-Set (realize em sequência).</p>
-                <p><b>Descanso:</b> 45–60s entre os Bi-Sets completos.</p>
-            </div>
-        </section>
+    
+    <header>
+        <h1 id="tituloTreino"></h1>
         
-        <section>
-            <h2>Exercícios do Dia</h2>
-            <ul class="exercicios-lista-biset">
-                
-                <div class="biset-container">
-                    <h4>BI-SET 1: Membros Inferiores + Dorsais</h4>
-                    <li>
-                        <input type="checkbox" id="ex1_c">
-                        <label for="ex1_c">
-                            Cadeira Extensora (Máquina)
-                            <span class="details">3 séries de 12–15 repetições.</span>
-                            <span class="details_">Dia 20/10 fiz com 30kg em série reta</span>
-                        </label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="ex2_c">
-                        <label for="ex2_c">
-                            Remada Curvada (Halteres/Barra)
-                            <span class="details">3 séries de 10–12 repetições.</span>
-                        </label>
-                    </li>
-                </div>
+    </header>
 
-                <div class="biset-container">
-                    <h4>BI-SET 2: Peito + Posteriores de Coxa</h4>
-                    <li>
-                        <input type="checkbox" id="ex3_c">
-                        <label for="ex3_c">
-                            Supino Reto com Halteres
-                            <span class="details">3 séries de 10–12 repetições.</span>
-                            <span class="details_">Dia 21/10 fiz com 9kg em série reta</span>
-                        </label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="ex4_c">
-                        <label for="ex4_c">
-                            Stiff com Halteres
-                            <span class="details">3 séries de 10–12 repetições.</span>
-                            <span class="details_">24/10 - TUT 4s</span>
-                            <span class="details_">Dia 22/10 fiz com 20kg em série reta</span>
-                        </label>
-                    </li>
-                </div>
+    <hr>
 
-                <div class="biset-container">
-                    <h4>BI-SET 3: Ombros + Membros Inferiores</h4>
-                    <li>
-                        <input type="checkbox" id="ex5_c">
-                        <label for="ex5_c">
-                            Elevação Lateral Unilateral
-                            <span class="details">3 séries de 12–15 repetições.</span>
-                            <span class="details_">Dia 21/10 fiz com 3kg em série reta bilateral</span>
-                        </label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="ex6_c">
-                        <label for="ex6_c">
-                            Cadeira Abdutora
-                            <span class="details">3 séries de 15–20 repetições.</span>
-                            <span class="details_">Dia 22/10 fiz com 50kg em série reta</span>
-                        </label>
-                    </li>
-                </div>
-                
-                <li style="margin-bottom: 10px;">
-                    <input type="checkbox" id="ex7_c">
-                    <label for="ex7_c">
-                        Prancha (Alternada Braço/Perna)
-                        <span class="details">3 séries de 45–60 segundos.</span>
-                    </label>
-                </li>
-            </ul>
-        </section>
-
-        <h2>Cardio Após o Treino</h2>
-        <div class="observacao">
-            <p>Alternar entre as opções ao longo da semana:</p>
-            <p><b> - LISS (Baixa/Média Intensidade):</b> 25–40 minutos. (Ritmo constante e moderado.)</p>
-        </div>
+    <section class="exercicios-dia">
+        <h2>Exercícios do Dia</h2>
         
+        <div id="listaExercicios">
+            <p>Carregando dados do treino...</p>
+        </div>
+    </section>
+
+    <hr>
+    
+    <footer>
         <a href="index.html" class="voltar-btn">← Voltar para a Lista de Treinos</a>
-    </div>
+    </footer>
 
+    <br><br>
+    
+    <script src="carregar_treino.js"></script>
 </body>
 </html>
-
-
-
-
-
