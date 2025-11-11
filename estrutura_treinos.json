@@ -69,16 +69,16 @@
     "exercicios": [
       "Cadeira Extensora", 
       "Remada Curvada (Halteres/Barra)", 
-      "Supino Reto com Halteres", 
-      "Stiff com Halteres", 
-      "Elevação Lateral", 
+      "Supino com Halteres", 
+      "Stiff (Com Halteres ou Barra)", 
+      "Elevação Lateral (Com Halteres ou Cabo)", 
       "Cadeira Abdutora", 
       "Prancha Ventral"
     ],
     "progresso_esperado": {
       "Cadeira Extensora": "Aumentar a carga para 35kg e focar no pico de contração.",
       "Remada Curvada (Halteres/Barra)": "Tentar carga máxima com boa forma.",
-      "Supino Reto com Halteres": "Aumentar para 10kg.",
+      "Supino com Halteres": "Aumentar para 10kg.",
       "Stiff com Halteres": "Fazer TUT 4s e tentar aumentar a carga de 20kg.",
       "Prancha Ventral": "Manter por 60s e focar na respiração."
     }
