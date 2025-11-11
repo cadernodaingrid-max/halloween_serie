@@ -273,52 +273,12 @@
       "repeticoes": ["3x10-15"]
     }
   ],
-  "Cadeira Extensora (Máquina)": [
-    {
-      "data": "20/10/2025",
-      "cargas_kg": "30kg em série reta",
-      "tecnica": "Bi-Set",
-      "repeticoes": ["3x12-15"]
-    }
-  ],
   "Remada Curvada (Halteres/Barra)": [
     {
       "data": "Data Não Registrada",
       "cargas_kg": "Sem dados de carga registrados",
       "tecnica": "Bi-Set",
       "repeticoes": ["3x10-12"]
-    }
-  ],
-  "Supino Reto com Halteres": [
-    {
-      "data": "21/10/2025",
-      "cargas_kg": "9kg em série reta",
-      "tecnica": "Bi-Set",
-      "repeticoes": ["3x10-12"]
-    }
-  ],
-  "Stiff com Halteres": [
-    {
-      "data": "22/10/2025",
-      "cargas_kg": "20kg em série reta",
-      "tecnica": "Bi-Set / TUT 4s",
-      "repeticoes": ["3x10-12"]
-    }
-  ],
-  "Elevação Lateral Unilateral": [
-    {
-      "data": "21/10/2025",
-      "cargas_kg": "3kg em série reta bilateral",
-      "tecnica": "Bi-Set",
-      "repeticoes": ["3x12-15"]
-    }
-  ],
-  "Cadeira Abdutora (Treino E)": [
-    {
-      "data": "22/10/2025",
-      "cargas_kg": "50kg em série reta",
-      "tecnica": "Bi-Set",
-      "repeticoes": ["3x15-20"]
     }
   ],
   "Prancha (Alternada Braço/Perna)": [
