@@ -26,11 +26,11 @@
       "Elevação de Pernas"
     ],
     "progresso_esperado": {
-        "Supino com Halteres": "Mantenha 10kg. Tente aumentar o volume total de repetições.",
-        "Desenvolvimento Militar (Sentado com Halteres)": "Mantenha 8kg e tente mais 2 repetições no Rest-Pause.",
-        "Elevação Lateral (Com Halteres ou Cabo)": "Focar 100% na técnica TUT.",
-        "Tríceps Pulley Alto Overhead": "Manter 6.75kg.",
-        "Elevação de Pernas": "Manter 3x10 full e adicionar 5s de isometria no final."
+        "Supino com Halteres": "3 séries de 15–20 reps. 8kg a 9kg. TUT 3s (na fase de descida)",
+        "Desenvolvimento Militar (Sentado com Halteres)": "3 séries de 15–20 reps. 6kg a 7kg.",
+        "Elevação Lateral (Com Halteres ou Cabo)": "3 séries de 20 reps. 3kg. DROP-SET (DS) na 3ª série.",
+        "Tríceps Pulley Alto Overhead": "3 séries de 20 reps. 5kg a 6.75kg. PICO DE CONTRAÇÃO 2s no final.",
+        "Elevação de Pernas": "3 séries do máximo possível."
     }
   },
   "treino_c": {
