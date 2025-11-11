@@ -67,7 +67,7 @@
   "treino_e": {
     "titulo": "Treino E: Corpo Inteiro - Bi-Set",
     "exercicios": [
-      "Cadeira Extensora (Máquina)", 
+      "Cadeira Extensora", 
       "Remada Curvada (Halteres/Barra)", 
       "Supino Reto com Halteres", 
       "Stiff com Halteres", 
@@ -76,7 +76,7 @@
       "Prancha Ventral"
     ],
     "progresso_esperado": {
-      "Cadeira Extensora (Máquina)": "Aumentar a carga para 35kg e focar no pico de contração.",
+      "Cadeira Extensora": "Aumentar a carga para 35kg e focar no pico de contração.",
       "Remada Curvada (Halteres/Barra)": "Tentar carga máxima com boa forma.",
       "Supino Reto com Halteres": "Aumentar para 10kg.",
       "Stiff com Halteres": "Fazer TUT 4s e tentar aumentar a carga de 20kg.",
