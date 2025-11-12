@@ -43,10 +43,11 @@
       "Panturrilha em Pé"
     ],
     "progresso_esperado": {
-        "Stiff (Com Halteres ou Barra)": "Suba a carga para 22.5kg e mantenha o TUT 4s na descida. Fazer Cluster Set na última série.",
-        "Cadeira Abdutora": "Use 55kg (se 50kg foi fácil) e foque na exaustão.",
-        "Cadeira Flexora (Sentada ou Deitada)": "Tente 27.5kg para a série inicial.",
-        "Glúteo no Cabo (Kickback)": "Suba para 35kg."
+        "Stiff (Com Halteres ou Barra)": "4x15reps. 15 a 20kg. TUT 4s na descida.",
+        "Cadeira Abdutora": "3x30reps. 40 a 45kg. Pico de contração 2s.",
+        "Cadeira Flexora (Sentada ou Deitada)": "3x20reps. 20 a 22.5kg. Rest-Pause na 3ª série.",
+        "Glúteo no Cabo (Kickback)": "3x20reps. 30kg. Pico de contração 2s.",
+        "Panturrilha em pé": "4x20reps"
     }
   },
   "treino_d": {
