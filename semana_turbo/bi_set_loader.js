@@ -27,7 +27,7 @@ async function carregarBiSets() {
                 return res.json();
             }),
 
-            fetch('historico_exercicios.json').then(res => {
+            fetch('../historico_exercicios.json').then(res => {
                 if (!res.ok) throw new Error(`Erro ao carregar historico_exercicios.json (Status: ${res.status}).`);
                 return res.json();
             })
