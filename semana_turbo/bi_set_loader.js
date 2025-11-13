@@ -9,9 +9,9 @@ function formatarRegistro(registro, tipo) {
 }
 
 async function carregarBiSets() {
-    const listaHTML = document.getElementById('listaBiSets');
+    const listaHTML = document.getElementById('listaExercicios');
     if (!listaHTML) {
-        console.error("Erro Crítico: Elemento 'listaBiSets' não encontrado no HTML. Verifique se o ID está correto.");
+        console.error("Erro Crítico: Elemento 'listaExercicios' não encontrado no HTML.");
         return;
     }
 
@@ -21,11 +21,13 @@ async function carregarBiSets() {
 
     try {
         const [estruturaBiSets, historico] = await Promise.all([
+
             fetch('estrutura_bi_sets.json').then(res => {
                 if (!res.ok) throw new Error(`Erro ao carregar estrutura_bi_sets.json (Status: ${res.status}).`);
                 return res.json();
             }),
-            fetch('../historico_exercicios.json').then(res => {
+
+            fetch('historico_exercicios.json').then(res => {
                 if (!res.ok) throw new Error(`Erro ao carregar historico_exercicios.json (Status: ${res.status}).`);
                 return res.json();
             })
@@ -33,10 +35,12 @@ async function carregarBiSets() {
         
         const treinoEstrutura = estruturaBiSets[treinoKey];
 
+
         if (!treinoEstrutura || !treinoEstrutura.bi_sets || treinoEstrutura.bi_sets.length === 0) {
-            listaHTML.innerHTML = `<p class="alerta-sem-registro text-red-600 p-4 bg-red-100 rounded-md">ALERTA CRÍTICO: Estrutura do Bi-Set (Chave: ${treinoKey}) não encontrada ou vazia no arquivo estrutura_bi_sets.json.</p>`;
+            listaHTML.innerHTML = `<p class="alerta-sem-registro">ALERTA CRÍTICO: Estrutura do Bi-Set (Chave: ${treinoKey}) não encontrada ou vazia no arquivo estrutura_bi_sets.json.</p>`;
             return;
         }
+
 
         const tituloElement = document.getElementById('tituloTreino');
         if (tituloElement) {
@@ -61,12 +65,15 @@ async function carregarBiSets() {
 
 
             htmlGerado += `
-                <div class="bi-set-container bg-white p-6 rounded-xl shadow-xl mb-8 border-t-8 border-indigo-500">
-                    <h3 class="text-2xl font-extrabold text-indigo-700 border-b pb-2 mb-4">
+                <div class="biset-container">
+                    <h4>
                         ${biSet.nome || `${groupType} ${biSetIndex + 1}`}
-                        <span class="text-sm font-normal text-indigo-400 ml-2">(${groupType})</span>
-                    </h3>
-                    <p class="text-sm italic text-gray-600 mb-4">${biSet.notas || 'Sem notas específicas para este grupo.'}</p>
+                        <span class="tipo-grupo">(${groupType})</span>
+                    </h4>
+                    <p class="notas-bi-set observacao">${biSet.notas || 'Sem notas específicas para este grupo.'}</p>
+                    
+                    <!-- Container que o seu CSS tenta estilizar as LIs internas -->
+                    <ul class="exercicios-lista-biset"> 
             `;
             
             (biSet.exercicios || []).forEach(nomeExercicio => {
@@ -84,23 +91,25 @@ async function carregarBiSets() {
                 const progressao = treinoEstrutura.progresso_esperado ? treinoEstrutura.progresso_esperado[nomeExercicio] : undefined;
 
                 htmlGerado += `
-                    <div class="exercicio-individual p-4 border-l-4 border-green-500 mb-4 bg-gray-50 rounded-md transition duration-300 hover:shadow-inner">
-                        <h4 class="text-xl font-semibold text-gray-800 mb-2">${nomeExercicio}</h4>
+                    <li>
+                        <!-- Usamos uma div interna para agrupar o conteúdo e aplicar estilos de div, se necessário -->
+                        <div class="exercicio-individual"> 
+                            <h4>${nomeExercicio}</h4>
                 `;
 
                 if (ultimoRegistro) {
                     htmlGerado += `
-                        <p class="historico-registro text-sm text-gray-700 mb-1">
+                        <p class="historico-registro ultimo">
                             ${formatarRegistro(ultimoRegistro, 'Último Treino')}
                         </p>
                     `;
                 } else {
-                    htmlGerado += `<p class="alerta-sem-registro text-red-500 text-sm">*** ALERTA: Não há registro para este exercício. ***</p>`;
+                    htmlGerado += `<p class="alerta-sem-registro">*** ALERTA: Não há registro para este exercício. ***</p>`;
                 }
 
                 if (penultimoRegistro) {
                     htmlGerado += `
-                        <p class="historico-registro text-xs text-gray-500 italic mb-3">
+                        <p class="historico-registro penultimo">
                             ${formatarRegistro(penultimoRegistro, 'Penúltimo Treino')}
                         </p>
                     `;
@@ -108,30 +117,32 @@ async function carregarBiSets() {
 
                 if (progressao && progressao.trim() !== "") {
                     htmlGerado += `
-                        <p class="alerta-progresso mt-2 p-2 bg-yellow-100 border-l-2 border-yellow-500 rounded text-sm text-yellow-800">
-                            <span class="font-bold">META:</span> ${progressao}
+                        <p class="alerta-progresso">
+                            <span class="progresso-meta">META:</span> ${progressao}
                         </p>
                     `;
                 } else {
-                    htmlGerado += `<p class="alerta-progresso mt-2 text-sm text-yellow-600 italic">*** ALERTA: Meta de progressão não definida para ${nomeExercicio}. ***</p>`;
+                    htmlGerado += `<p class="alerta-progresso">*** ALERTA: Meta de progressão não definida para ${nomeExercicio}. ***</p>`;
                 }
 
                 htmlGerado += '</div>'; 
+                htmlGerado += '</li>'; 
             });
 
+            htmlGerado += '</ul>'; 
             htmlGerado += '</div>'; 
         });
 
-        
+    
         listaHTML.innerHTML = htmlGerado;
 
     } catch (error) {
         console.error("Erro ao carregar dados:", error);
         listaHTML.innerHTML = `
-            <div class="p-6 bg-red-100 border-l-4 border-red-500 text-red-700 rounded-md shadow-lg">
-                <p class="font-bold mb-2 text-lg">Erro Crítico de Carregamento</p>
-                <p>Não foi possível carregar os dados de Bi-Set. Verifique se os arquivos JSON (estrutura_bi_sets.json e historico_exercicios.json) existem nos caminhos corretos e se estão bem formatados.</p>
-                <p class="mt-3 text-sm italic">Detalhe Técnico: ${error.message}</p>
+            <div class="alerta-sem-registro">
+                <p><strong>Erro Crítico de Carregamento:</strong></p>
+                <p>Não foi possível carregar os dados. Verifique a sintaxe dos arquivos JSON e se está rodando em um servidor local.</p>
+                <p style="font-size: 0.8em; margin-top: 5px;">Detalhe Técnico: ${error.message}</p>
             </div>
         `;
     }
