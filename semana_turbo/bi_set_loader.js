@@ -17,7 +17,7 @@ async function carregarBiSets() {
     try {
         const [estruturaBiSets, historico] = await Promise.all([
             fetch('estrutura_bi_sets.json').then(res => res.json()),
-            fetch('historico_exercicios.json').then(res => res.json())
+            fetch('../historico_exercicios.json').then(res => res.json())
         ]);
         
         const treinoEstrutura = estruturaBiSets[treinoKey];
