@@ -67,6 +67,12 @@
       "repeticoes": ["3x12"]
     },
     {
+      "data": "22/10/2025",
+      "cargas_kg": "25kg. 5x Drop-set 20kg",
+      "tecnica": "Rest-Pause / Drop-Set",
+      "repeticoes": ["3x12-15"]
+    },
+    {
       "data": "20/10/2025",
       "cargas_kg": "25kg + DS 20kg (8)",
       "tecnica": "Drop-Set (DS)",
@@ -231,14 +237,6 @@
       "cargas_kg": "50kg - Pico de Contração na última série",
       "tecnica": "Pico de Contração 2s",
       "repeticoes": ["3x10-12"]
-    }
-  ],
-  "Cadeira Flexora (Sentada ou Deitada)": [
-    {
-      "data": "22/10/2025",
-      "cargas_kg": "25kg. 5x Drop-set 20kg",
-      "tecnica": "Rest-Pause / Drop-Set",
-      "repeticoes": ["3x12-15"]
     }
   ],
   "Glúteo no Cabo (Kickback)": [
