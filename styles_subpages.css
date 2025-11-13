@@ -15,7 +15,7 @@
 
 /* Título do Exercício */
 #listaExercicios h4 {
-    color: rgb(255, 165, 0);
+    color: white;
     text-shadow: none;
     margin-top: 0;
     font-size: 1.2em;
@@ -236,7 +236,7 @@ li input[type="checkbox"]:checked + label .details {
 }
 
 .exercicios-lista-biset li {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.05);
     padding: 15px;
     margin: 0;
     border-radius: 0;
@@ -247,7 +247,7 @@ li input[type="checkbox"]:checked + label .details {
     line-height: 1.4;
     display: flex;
     align-items: center;
-    text-align: left;
+    text-align: left;   
 }
 
 .biset-container li:last-child {
