@@ -1,0 +1,56 @@
+{
+  "bw_a": {
+    "titulo": "Treino A - Semana Turbo - Inferiores",
+    "descricao": "Treino A com foco em Bi-Sets para eficiência e progressão de carga.",
+    "bi_sets": [
+      {
+        "nome": "Execício Inicial:",
+        "exercicios": [
+          "Agachamento na Máquina Smith"
+        ],
+        "notas": " "
+      },
+      {
+        "nome": "Bi-Set 1:",
+        "exercicios": [
+          "Leg Press Horizontal",
+          "Cadeira Flexora"
+        ],
+        "notas": " "
+      },
+      {
+        "nome": "Bi-Set 2:",
+        "exercicios": [
+          "Cadeira Extensora",
+          "Abdominal Máquina"
+        ],
+        "notas": " "
+      },
+      {
+        "nome": "Bi-Set 3:",
+        "exercicios": [
+          "Cadeira Abdutora",
+          "Panturrilha em Pé"
+        ],
+        "notas": " "
+      },
+      {
+        "nome": "Exercício Final:",
+        "exercicios": [
+          "Hiperextensão Lombar"
+        ],
+        "notas": " "
+      }
+    ],
+    "progresso_esperado": {
+      "Agachamento na Máquina Smith": " ",
+      "Leg Press Horizontal": " ",
+      "Cadeira Flexora": " ",
+      "Cadeira Extensora": " ",
+      "Abdominal Máquina": " ",
+      "Cadeira Abdutora": " ",
+      "Panturrilha em Pé": " ",
+      "Hiperextensão Lombar": " "
+    }
+  }
+}
