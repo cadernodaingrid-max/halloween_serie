@@ -1,4 +1,4 @@
-/* Contêiner principal onde o JS injeta o conteúdo */
+
 #listaExercicios {
     max-width: 90%;
     margin: 20px auto;
@@ -13,7 +13,7 @@
     border-left: 5px solid #E65100;
 }
 
-/* Título do Exercício */
+
 #listaExercicios h4 {
     color: rgb(255, 165, 0);
     text-shadow: none;
@@ -262,7 +262,6 @@ body {
             border-radius: 0 0 3px 3px;
         }
         
-/* Adições do Gemini para garantir que o tema Dark funcione em todas as páginas com injeção de JS */
 
 #listaExercicios, #listaBiSets {
     max-width: 90%;
