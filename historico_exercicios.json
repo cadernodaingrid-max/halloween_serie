@@ -315,6 +315,13 @@
       "cargas_kg": "Sem carga",
       "tecnica": "Bi-Set",
       "repeticoes": ["3x45-60 segundos"]
+    },
+  "Abdominal Máquina": [
+    {
+      "data": "Data Não Registrada",
+      "cargas_kg": "Sem carga",
+      "tecnica": "Bi-Set",
+      "repeticoes": ["3x45-60 segundos"]
     }
   ]
 }
