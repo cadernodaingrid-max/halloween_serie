@@ -61,8 +61,14 @@
   ],
   "Cadeira Flexora": [
     {
+      "data": "12/11/2025",
+      "cargas_kg": "20kg",
+      "tecnica": "Rest-Pause (RP) na 3ª",
+      "repeticoes": ["3x20, 3+3"]
+    },
+    {
       "data": "03/11/2025",
-      "cargas_kg": "27.5kg. RP 3+3",
+      "cargas_kg": "27.5kg.",
       "tecnica": "Rest-Pause (RP) na 3ª",
       "repeticoes": ["3x12"]
     },
@@ -225,6 +231,12 @@
   ],
   "Stiff (Com Halteres ou Barra)": [
     {
+      "data": "12/11/2025",
+      "cargas_kg": "barra 20kg",
+      "tecnica": "TUT 4s na descida",
+      "repeticoes": ["1x20, 3x15"]
+    },
+    {
       "data": "22/10/2025",
       "cargas_kg": "barra 20kg",
       "tecnica": "TUT 4s na descida",
@@ -232,6 +244,12 @@
     }
   ],
   "Cadeira Abdutora": [
+    {
+      "data": "12/11/2025",
+      "cargas_kg": "30kg",
+      "tecnica": "Pico de Contração 2s",
+      "repeticoes": ["3x20"]
+    },
     {
       "data": "22/10/2025",
       "cargas_kg": "50kg - Pico de Contração na última série",
@@ -241,6 +259,12 @@
   ],
   "Glúteo no Cabo (Kickback)": [
     {
+      "data": "12/11/2025",
+      "cargas_kg": "15kg",
+      "tecnica": "Pico de Contração 2s",
+      "repeticoes": ["3x20"]
+    },
+    {
       "data": "22/10/2025",
       "cargas_kg": "30kg",
       "tecnica": "Pico de Contração 2s",
@@ -248,6 +272,12 @@
     }
   ],
   "Panturrilha em Pé": [
+    {
+      "data": "12/11/2025",
+      "cargas_kg": "leg press - 35kg",
+      "tecnica": "Normal",
+      "repeticoes": ["4x20"]
+    },
     {
       "data": "22/10/2025",
       "cargas_kg": "em pé - sem carga",
