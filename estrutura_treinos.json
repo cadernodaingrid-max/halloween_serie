@@ -60,9 +60,11 @@
       "Rosca Martelo (Halteres)"
     ],
     "progresso_esperado": {
-        "Puxada na Polia Alta (Pegada Pronada)": "Aumentar a carga para 35kg e manter o TUT 4s.",
-        "Remada Baixa (Sentado)": "Aumentar a carga para 20kg e focar na pausa de 1s.",
-        "Rosca Direta (Barra W ou Halteres)": "Tentar 7kg e focar na contração de pico."
+      "Puxada na Polia Alta (Pegada Pronada)":"4x15. 25kg a 30kg. TUT na subida",
+      "Remada Baixa (Sentado)":"3x15. 12.5kg a 17.5kg. Pico de contração 2s",
+      "Pull Down (Corda)":"3x15. 6.75kg. DS na última.",
+      "Rosca Direta (Barra W ou Halteres)":"3x15. 5kg a 6kg. RP na última.",
+      "Rosca Martelo (Halteres)":"3x15. 3kg a 4kg. DS na última."
     }
   },
   "treino_e": {
