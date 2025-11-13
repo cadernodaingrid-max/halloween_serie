@@ -15,7 +15,7 @@
 
 /* Título do Exercício */
 #listaExercicios h4 {
-    color: white;
+    color: rgb(255, 165, 0);
     text-shadow: none;
     margin-top: 0;
     font-size: 1.2em;
@@ -227,7 +227,7 @@ li input[type="checkbox"]:checked + label .details {
 }
 
 .biset-container h4 {
-    background-color: #E65100;
+    /* background-color: #E65100; */
     color: white;
     padding: 5px 15px;
     margin: 0;
