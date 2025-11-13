@@ -8,7 +8,7 @@
         "exercicios": [
           "Agachamento na Máquina Smith"
         ],
-        "notas": " "
+        "notas": "Se conseguir fazer barra livre, melhor."
       },
       {
         "nome": "Bi-Set 1:",
@@ -16,7 +16,7 @@
           "Leg Press Horizontal",
           "Cadeira Flexora"
         ],
-        "notas": " "
+        "notas": "Leg Press + Flexora"
       },
       {
         "nome": "Bi-Set 2:",
@@ -24,7 +24,7 @@
           "Cadeira Extensora",
           "Abdominal Máquina"
         ],
-        "notas": " "
+        "notas": "Extensora + Abd"
       },
       {
         "nome": "Bi-Set 3:",
@@ -32,25 +32,25 @@
           "Cadeira Abdutora",
           "Panturrilha em Pé"
         ],
-        "notas": " "
+        "notas": "Abdutora + panturrilha"
       },
       {
         "nome": "Exercício Final:",
         "exercicios": [
           "Hiperextensão Lombar"
         ],
-        "notas": " "
+        "notas": "Somente extensão. Tentar fazer hold ao final das séries"
       }
     ],
     "progresso_esperado": {
-      "Agachamento na Máquina Smith": " ",
-      "Leg Press Horizontal": " ",
-      "Cadeira Flexora": " ",
-      "Cadeira Extensora": " ",
-      "Abdominal Máquina": " ",
-      "Cadeira Abdutora": " ",
-      "Panturrilha em Pé": " ",
-      "Hiperextensão Lombar": " "
+      "Agachamento na Máquina Smith": " .",
+      "Leg Press Horizontal": " .",
+      "Cadeira Flexora": " .",
+      "Cadeira Extensora": ". ",
+      "Abdominal Máquina": " .",
+      "Cadeira Abdutora": " .",
+      "Panturrilha em Pé": " .",
+      "Hiperextensão Lombar": ". "
     }
   }
 }
