@@ -7,7 +7,7 @@
 
 #listaExercicios > div {
     margin-bottom: 25px;
-    padding: 15px;
+    padding: 5px;
     background-color: rgba(255, 255, 255, 0.05);
     border-radius: 5px;
     border-left: 5px solid #E65100;
