@@ -229,7 +229,7 @@ li input[type="checkbox"]:checked + label .details {
 .biset-container h4 {
     /* background-color: #E65100; */
     color: white;
-    padding: 5px 5px;
+    padding: 5px 15px;
     margin: 0;
     border-radius: 3px 3px 0 0;
     text-shadow: none;
