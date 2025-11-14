@@ -29,6 +29,7 @@ h1, h2, h4, p {
 
 /* LISTA DE EXERCÍCIOS PRINCIPAL (#listaExercicios) */
 #listaExercicios {
+    width: 100%;
     max-width: 100%;
     margin: 10px 0;
     text-align: left;
@@ -195,7 +196,7 @@ li input[type="checkbox"]:checked + label .details {
     font-size: 0.7em;
     font-weight: normal;
     color:#D35400;
-    text-indent: 10px; 
+    text-indent: 10px;
 }
 
 .voltar-btn {
@@ -236,7 +237,7 @@ li input[type="checkbox"]:checked + label .details {
 
 .exercicios-lista-biset li {
     background-color: rgba(255, 255, 255, 0.08);
-    padding: 8px 10px; 
+    padding: 8px 10px;
     margin: 0;
     border-radius: 0;
     font-size: 1.1em;
