@@ -1,13 +1,13 @@
 
 #listaExercicios {
     max-width: 90%;
-    margin: 20px auto;
+    margin: 20px 7px;
     text-align: left;
 }
 
 #listaExercicios > div {
     margin-bottom: 25px;
-    padding: 5px;
+    padding: 10px;
     background-color: rgba(255, 255, 255, 0.05);
     border-radius: 5px;
     border-left: 5px solid #E65100;
