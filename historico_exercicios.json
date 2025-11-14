@@ -91,12 +91,12 @@
       "repeticoes": ["3x10-15"]
     }
   ],
-  "Hiperextensão na Cadeira Romana": [
+  "Hiperextensão Lombar": [
     {
       "data": "Data Não Registrada",
-      "cargas_kg": "3x10",
+      "cargas_kg": "Peso corporal",
       "tecnica": "Normal",
-      "repeticoes": ["3x12-15"]
+      "repeticoes": ["3x10"]
     }
   ],
   "Supino com Halteres": [
@@ -293,6 +293,12 @@
   ],
   "Puxada na Polia Alta (Pegada Pronada)": [
     {
+      "data": "13/11/2025",
+      "cargas_kg": "26kg, 33kg(final)",
+      "tecnica": "TUT 4s na descida",
+      "repeticoes": ["3x15"]
+    },
+    {
       "data": "23/10/2025",
       "cargas_kg": "4x12/33kg",
       "tecnica": "TUT 4s",
@@ -300,6 +306,12 @@
     }
   ],
   "Remada Baixa (Sentado)": [
+    {
+      "data": "13/11/2025",
+      "cargas_kg": "13.25kg",
+      "tecnica": "TUT 2s",
+      "repeticoes": ["3x15"]
+    },
     {
       "data": "23/10/2025",
       "cargas_kg": "3x (12, 12, 10 reps)/17.25kg",
@@ -309,6 +321,12 @@
   ],
   "Pull Down (Corda)": [
     {
+      "data": "13/11/2025",
+      "cargas_kg": "7.5kg, 5kg DS",
+      "tecnica": "Drop Set",
+      "repeticoes": ["3x15 + 9 DS"]
+    },
+    {
       "data": "23/10/2025",
       "cargas_kg": "3x12/6.75kg",
       "tecnica": "Normal",
@@ -317,6 +335,12 @@
   ],
   "Rosca Direta (Barra W ou Halteres)": [
     {
+      "data": "13/11/2025",
+      "cargas_kg": "12.5kg, 10kg(final)",
+      "tecnica": "Rest Pause",
+      "repeticoes": ["3x15, 4+4 RP"]
+    },
+    {
       "data": "23/10/2025",
       "cargas_kg": "3x12/6kg + DS (Barra W 10kg, 8 reps)",
       "tecnica": "Drop-Set (DS)",
@@ -324,6 +348,12 @@
     }
   ],
   "Rosca Martelo (Halteres)": [
+    {
+      "data": "13/11/2025",
+      "cargas_kg": "4kg, 3kg(DS)",
+      "tecnica": "Drop Set",
+      "repeticoes": ["3x15 + 10"]
+    },
     {
       "data": "23/10/2025",
       "cargas_kg": "3x12/4kg",
@@ -339,7 +369,7 @@
       "repeticoes": ["3x10-12"]
     }
   ],
-  "Prancha (Alternada Braço/Perna)": [
+  "Prancha Ventral": [
     {
       "data": "Data Não Registrada",
       "cargas_kg": "Sem carga",
