@@ -1,13 +1,13 @@
 
 #listaExercicios {
     max-width: 90%;
-    margin: 20px 7px;
+    margin: 5px 7px;
     text-align: left;
 }
 
 #listaExercicios > div {
     margin-bottom: 25px;
-    padding: 10px;
+    padding: 5px;
     background-color: rgba(255, 255, 255, 0.05);
     border-radius: 5px;
     border-left: 5px solid #E65100;
@@ -88,7 +88,7 @@ body {
     font-family: sans-serif;
     color: #333;
     margin: 0;
-    padding: 20px;
+    padding: 10px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -97,8 +97,8 @@ body {
 
 .container {
     max-width: 800px;
-    margin: 10px;
-    padding: 30px;
+    margin: 5px;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     color: #FFFFFF;
@@ -142,15 +142,15 @@ h1, h2, h4, p {
     list-style: none;
     padding: 0;
     margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     max-width: 90%;
     text-align: left;
 }
 
 .exercicios-lista li {
     background-color: rgba(255, 255, 255, 0.90);
-    padding: 15px;
+    padding: 5px;
     margin-bottom: 10px;
     border-radius: 5px;
     font-size: 1.1em;
@@ -229,7 +229,7 @@ li input[type="checkbox"]:checked + label .details {
 .biset-container h4 {
     /* background-color: #E65100; */
     color: white;
-    padding: 5px 15px;
+    padding: 3px 3px;
     margin: 0;
     border-radius: 3px 3px 0 0;
     text-shadow: none;
@@ -237,7 +237,7 @@ li input[type="checkbox"]:checked + label .details {
 
 .exercicios-lista-biset li {
     background-color: rgba(255, 255, 255, 0.05);
-    /* padding: 15px; */
+    padding: 3px;
     margin: 0;
     border-radius: 0;
     font-size: 1.1em;
