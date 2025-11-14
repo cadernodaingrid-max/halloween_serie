@@ -1,21 +1,22 @@
 :root {
-    --fundo-principal: #F7F8FC;
-    --fundo-bloco: #FFFFFF;
-    --texto-principal: #293845;
-    --texto-secundario: #5A6D7C;
-    --cor-destaque: #1E88E5;
-    --cor-sucesso: #4CAF50;
-    --cor-alerta: #FF9800;
-    --cor-erro: #E53935;
-    --borda-suave: #ECEFF1;
+    /* Paleta Limpa e Moderna */
+    --fundo-principal: #FFFFFF;       /* Fundo: Branco Puro e Limpo */
+    --texto-principal: #1F2937;      /* Texto Principal: Cinza Escuro (Quase Preto) */
+    --texto-secundario: #6B7280;     /* Texto Secundário (Detalhes) */
+    --cor-destaque: #10B981;         /* Destaque / Ação: Verde-Esmeralda (Calmo e Focado) */
+    --cor-sucesso: #059669;          /* Sucesso (Último Treino) */
+    --cor-alerta: #F59E0B;           /* Alerta: Amarelo Ouro */
+    --cor-erro: #EF4444;             /* Erro/Progresso: Vermelho Suave */
+    --borda-fina: #E5E7EB;           /* Borda/Divisão: Cinza muito Claro */
 }
 
+/* --- 1. Estrutura Mobile-First --- */
 body {
     background-color: var(--fundo-principal);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     color: var(--texto-principal);
     margin: 0;
-    padding: 10px 0;
+    padding: 15px 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -26,12 +27,12 @@ body {
     max-width: 600px;
     width: 100%;
     margin: 0 auto;
-    padding: 10px;
+    padding: 0 15px; 
     border-radius: 0;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    box-shadow: none;
     color: var(--texto-principal);
     text-align: left;
-    background-color: var(--fundo-bloco);
+    background-color: var(--fundo-principal);
 }
 
 h1, h2, h4, p {
@@ -40,6 +41,7 @@ h1, h2, h4, p {
     margin: 0 0 5px 0;
 }
 
+/* --- 2. LISTA DE EXERCÍCIOS (Outline Card Design) --- */
 #listaExercicios {
     width: 100%;
     max-width: 100%;
@@ -48,46 +50,48 @@ h1, h2, h4, p {
 }
 
 #listaExercicios > div {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     padding: 0;
-    background-color: var(--fundo-bloco);
-    border-radius: 8px;
-    border: 1px solid var(--borda-suave);
-    border-left: 5px solid var(--cor-destaque);
+    background-color: transparent; 
+    border-radius: 12px;
+    border: 1px solid var(--borda-fina); 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    overflow: hidden; 
 }
 
 #listaExercicios h4 {
     color: var(--texto-principal);
-    font-size: 1.3em;
-    padding: 10px;
+    font-size: 1.4em;
+    padding: 12px;
     margin: 0;
-    font-weight: 600;
-    border-bottom: 1px solid var(--borda-suave);
+    font-weight: 700;
+    border-bottom: 1px solid var(--borda-fina);
+    background-color: var(--borda-fina);
 }
 
+/* --- 3. Histórico e Alertas --- */
 .historico-registro {
     font-size: 0.9em;
     line-height: 1.5;
     margin: 0;
-    padding: 8px 10px;
+    padding: 10px 12px; 
     color: var(--texto-secundario);
-    border-left: 3px solid var(--borda-suave);
-    background-color: var(--fundo-principal);
+    border-left: 4px solid var(--borda-fina);
+    background-color: transparent;
 }
 
 .historico-registro.ultimo {
     color: var(--texto-principal);
     font-weight: 600;
-    background-color: rgba(76, 175, 80, 0.1);
-    border-left: 3px solid var(--cor-sucesso);
+    background-color: rgba(16, 185, 129, 0.05);
+    border-left: 4px solid var(--cor-sucesso);
 }
 
 .historico-registro.penultimo {
     color: var(--texto-secundario);
     font-style: italic;
-    background-color: rgba(0, 0, 0, 0.03);
-    border-left: 3px solid var(--borda-suave);
+    background-color: transparent;
+    border-left: 4px solid var(--borda-fina);
 }
 
 .alerta-progresso {
@@ -97,35 +101,37 @@ h1, h2, h4, p {
     font-weight: bold;
     margin: 15px 0;
     text-align: center;
-    border-radius: 4px;
+    border-radius: 6px;
     font-size: 1.1em;
 }
 
 .alerta-sem-registro {
     color: var(--cor-alerta);
-    background-color: rgba(255, 152, 0, 0.1);
+    background-color: rgba(245, 158, 11, 0.1);
     padding: 8px;
     border: 1px solid var(--cor-alerta);
     font-weight: 600;
     margin: 10px 0;
-    border-radius: 4px;
+    border-radius: 6px;
     text-align: center;
 }
 
 #listaExercicios hr {
     border: 0;
     height: 1px;
-    background-color: var(--borda-suave);
+    background-color: var(--borda-fina);
     margin: 10px 0;
 }
 
+
+/* --- 4. Observações e Listas de Tarefas --- */
 .observacao {
-    background-color: var(--fundo-principal);
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px 0;
+    background-color: var(--borda-fina);
+    border-radius: 8px;
+    padding: 12px;
+    margin: 15px 0;
     color: var(--texto-principal);
-    line-height: 1.5;
+    line-height: 1.6;
     border-left: 5px solid var(--cor-destaque);
     max-width: 100%;
     box-shadow: none;
@@ -142,32 +148,33 @@ h1, h2, h4, p {
     padding: 0;
     margin: 20px 0;
     max-width: 100%;
-    text-align: left;
 }
 
 .exercicios-lista li {
-    background-color: var(--fundo-bloco);
-    padding: 10px;
-    margin-bottom: 8px;
-    border-radius: 4px;
+    background-color: transparent;
+    padding: 12px 0;
+    margin-bottom: 5px;
+    border-radius: 0;
     font-size: 1.1em;
     color: var(--texto-principal);
-    border-left: 7px solid var(--cor-destaque);
+    border-left: none;
+    border-bottom: 1px solid var(--borda-fina);
     line-height: 1.4;
     display: flex;
-    align-items: center;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    align-items: flex-start;
+    box-shadow: none;
 }
 
+.exercicios-lista li:last-child {
+    border-bottom: none;
+}
+
+/* Estilos de Checkbox e Detalhes */
 li input[type="checkbox"] {
-    margin-right: 10px;
+    margin-right: 15px;
     min-width: 24px;
     height: 24px;
-}
-
-li label {
-    flex-grow: 1;
-    cursor: pointer;
+    accent-color: var(--cor-destaque);
 }
 
 li input[type="checkbox"]:checked + label {
@@ -175,27 +182,25 @@ li input[type="checkbox"]:checked + label {
     color: var(--texto-secundario);
 }
 
-li input[type="checkbox"]:checked + label .details {
-    color: var(--texto-secundario);
-}
-
 .details {
     display: block;
-    font-size: 0.9em;
-    font-weight: normal;
+    font-size: 0.85em;
+    font-weight: 400;
     color: var(--texto-secundario);
 }
 
 .details_ {
     display: block;
-    font-size: 0.75em;
-    font-weight: 400;
+    font-size: 0.7em;
+    font-weight: 500;
     color: var(--cor-alerta);
     text-indent: 10px;
+    margin-top: 2px;
 }
 
+/* --- 5. Botão Principal --- */
 .voltar-btn {
-    display: block;
+    display: block; 
     margin: 30px 0 10px 0;
     text-decoration: none;
     color: white;
@@ -205,41 +210,43 @@ li input[type="checkbox"]:checked + label .details {
     font-weight: bold;
     text-align: center;
     transition: background-color 0.1s, transform 0.1s, box-shadow 0.1s;
-    box-shadow: 0 4px 0 #1565C0;
+    box-shadow: 0 4px 0 #047857; 
 }
 
 .voltar-btn:active {
-    box-shadow: 0 1px 0 #1565C0;
+    box-shadow: 0 1px 0 #047857;
     transform: translateY(3px);
 }
 
+/* --- 6. Bi-Set (Contêiner) --- */
 .biset-container {
-    border: 2px solid var(--cor-destaque);
+    border: 1px solid var(--cor-destaque);
     border-radius: 8px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     padding: 0;
     width: 100%;
-    background-color: var(--fundo-bloco);
+    overflow: hidden;
+    background-color: transparent;
 }
 
 .biset-container h4 {
-    color: var(--texto-principal);
-    background-color: var(--borda-suave);
-    padding: 10px;
+    color: white;
+    background-color: var(--cor-destaque);
+    padding: 10px 12px;
     margin: 0;
     border-radius: 6px 6px 0 0;
-    border-bottom: 1px solid var(--borda-suave);
+    border-bottom: none;
 }
 
 .exercicios-lista-biset li {
-    background-color: var(--fundo-bloco);
-    padding: 8px 10px;
+    background-color: transparent;
+    padding: 10px 12px;
     margin: 0;
     border-radius: 0;
     font-size: 1.1em;
     color: var(--texto-principal);
     border-left: none;
-    border-bottom: 1px solid var(--borda-suave);
+    border-bottom: 1px solid var(--borda-fina);
     line-height: 1.5;
     display: flex;
     align-items: flex-start;
