@@ -195,7 +195,7 @@ li input[type="checkbox"]:checked + label .details {
     font-size: 0.7em;
     font-weight: normal;
     color:#D35400;
-    text-indent: 25px;
+    text-indent: 10px; 
 }
 
 .voltar-btn {
@@ -221,14 +221,14 @@ li input[type="checkbox"]:checked + label .details {
     border: 2px solid #FF9800;
     border-radius: 8px;
     margin-bottom: 25px;
-    padding: 0;
+    padding: 0; 
     text-align: left;
     width: 100%;
 }
 
 .biset-container h4 {
     color: white;
-    padding: 5px 8px;
+    padding: 5px 10px; 
     margin: 0;
     border-radius: 6px 6px 0 0;
     text-shadow: none;
@@ -236,7 +236,7 @@ li input[type="checkbox"]:checked + label .details {
 
 .exercicios-lista-biset li {
     background-color: rgba(255, 255, 255, 0.08);
-    padding: 8px;
+    padding: 8px 10px; 
     margin: 0;
     border-radius: 0;
     font-size: 1.1em;
