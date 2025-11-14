@@ -1,33 +1,45 @@
-/*PÁGINAS ESTÁTICAS:*/
+:root {
+    --fundo-principal: #F7F8FC;
+    --fundo-bloco: #FFFFFF;
+    --texto-principal: #293845;
+    --texto-secundario: #5A6D7C;
+    --cor-destaque: #1E88E5;
+    --cor-sucesso: #4CAF50;
+    --cor-alerta: #FF9800;
+    --cor-erro: #E53935;
+    --borda-suave: #ECEFF1;
+}
+
 body {
-    background-color: #212121;
-    background-size: cover;
-    font-family: sans-serif;
-    color: #E0E0E0;
+    background-color: var(--fundo-principal);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--texto-principal);
     margin: 0;
-    padding: 10px;
+    padding: 10px 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .container {
-    max-width: 98%;
+    max-width: 600px;
+    width: 100%;
     margin: 0 auto;
-    padding: 10px 5px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
-    color: #FFFFFF;
-    text-align: center;
+    padding: 10px;
+    border-radius: 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    color: var(--texto-principal);
+    text-align: left;
+    background-color: var(--fundo-bloco);
 }
 
 h1, h2, h4, p {
-    color: #FFFFFF;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    color: var(--texto-principal);
+    text-shadow: none;
+    margin: 0 0 5px 0;
 }
 
-/* LISTA DE EXERCÍCIOS PRINCIPAL (#listaExercicios) */
 #listaExercicios {
     width: 100%;
     max-width: 100%;
@@ -37,110 +49,94 @@ h1, h2, h4, p {
 
 #listaExercicios > div {
     margin-bottom: 25px;
-    padding: 8px 0; 
-    background-color: rgba(255, 255, 255, 0.08);
-    border-radius: 10px;
-    border-left: 5px solid #FF9800;
+    padding: 0;
+    background-color: var(--fundo-bloco);
+    border-radius: 8px;
+    border: 1px solid var(--borda-suave);
+    border-left: 5px solid var(--cor-destaque);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 #listaExercicios h4 {
-    color: #FFB300;
-    text-shadow: none;
-    margin-top: 0;
+    color: var(--texto-principal);
     font-size: 1.3em;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    padding: 0 5px 8px 5px; 
-    margin-bottom: 10px;
-    font-weight: bold;
+    padding: 10px;
+    margin: 0;
+    font-weight: 600;
+    border-bottom: 1px solid var(--borda-suave);
 }
 
-
-/* --- Estilos para o Histórico e Alertas --- */
 .historico-registro {
-    font-size: 0.95em;
+    font-size: 0.9em;
     line-height: 1.5;
-    margin: 8px 0;
-    color: #cccccc;
-    padding: 5px 5px 5px 8px; 
+    margin: 0;
+    padding: 8px 10px;
+    color: var(--texto-secundario);
+    border-left: 3px solid var(--borda-suave);
+    background-color: var(--fundo-principal);
 }
 
 .historico-registro.ultimo {
-    color: #FFFFFF;
-    font-weight: bold;
-    background-color: rgba(0, 200, 83, 0.2);
-    border-left: 3px solid #4CAF50;
-    /* PADRÃO DE PADDING REDUZIDO */
-    padding: 5px 5px 5px 8px; 
-    border-radius: 4px;
+    color: var(--texto-principal);
+    font-weight: 600;
+    background-color: rgba(76, 175, 80, 0.1);
+    border-left: 3px solid var(--cor-sucesso);
 }
 
 .historico-registro.penultimo {
-    color: #BDBDBD;
+    color: var(--texto-secundario);
     font-style: italic;
-    background-color: rgba(255, 255, 255, 0.05);
-    border-left: 3px solid #AAAAAA;
-    padding: 5px 5px 5px 8px; 
-    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-left: 3px solid var(--borda-suave);
 }
 
 .alerta-progresso {
     color: white;
-    background-color: rgba(255, 60, 60, 0.8);
-    padding: 8px;
-    border: 1px solid #FF5252;
+    background-color: var(--cor-erro);
+    padding: 10px;
     font-weight: bold;
-    margin-top: 15px;
+    margin: 15px 0;
     text-align: center;
-    border-radius: 6px;
+    border-radius: 4px;
     font-size: 1.1em;
 }
 
 .alerta-sem-registro {
-    color: #FF9800;
-    background-color: rgba(255, 152, 0, 0.15);
+    color: var(--cor-alerta);
+    background-color: rgba(255, 152, 0, 0.1);
     padding: 8px;
-    border: 1px solid #FF9800;
-    font-weight: bold;
-    margin-top: 10px;
-    border-radius: 6px;
+    border: 1px solid var(--cor-alerta);
+    font-weight: 600;
+    margin: 10px 0;
+    border-radius: 4px;
+    text-align: center;
 }
 
 #listaExercicios hr {
     border: 0;
     height: 1px;
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: var(--borda-suave);
     margin: 10px 0;
 }
 
-
-/* Estilo para as Observações (Aquecimento e Cardio) */
 .observacao {
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: var(--fundo-principal);
     border-radius: 5px;
     padding: 10px;
     margin: 10px 0;
-    color: #424242;
-    text-align: left;
-    line-height: 1.6;
-    border-left: 5px solid #FF9800;
+    color: var(--texto-principal);
+    line-height: 1.5;
+    border-left: 5px solid var(--cor-destaque);
     max-width: 100%;
+    box-shadow: none;
 }
 
-.observacao h4 {
-    color: #424242;
-    text-shadow: none;
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-
-.observacao p {
-    color: #424242;
+.observacao h4, .observacao p {
+    color: var(--texto-principal);
     text-shadow: none;
     margin: 5px 0;
-    text-align: justify;
 }
 
-/* Estilos para lista de exercícios */
 .exercicios-lista {
     list-style: none;
     padding: 0;
@@ -150,24 +146,23 @@ h1, h2, h4, p {
 }
 
 .exercicios-lista li {
-    background-color: rgba(255, 255, 255, 0.95);
-    padding: 10px 5px;
-    margin-bottom: 10px;
+    background-color: var(--fundo-bloco);
+    padding: 10px;
+    margin-bottom: 8px;
     border-radius: 4px;
     font-size: 1.1em;
-    color: #424242;
-    border-left: 7px solid #FF9800;
-    line-height: 1.5;
+    color: var(--texto-principal);
+    border-left: 7px solid var(--cor-destaque);
+    line-height: 1.4;
     display: flex;
     align-items: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
-/* Estilos de Checkbox e Tachar */
 li input[type="checkbox"] {
     margin-right: 10px;
     min-width: 24px;
     height: 24px;
-    cursor: pointer;
 }
 
 li label {
@@ -177,78 +172,77 @@ li label {
 
 li input[type="checkbox"]:checked + label {
     text-decoration: line-through;
-    color: #999;
-    transition: color 0.3s;
+    color: var(--texto-secundario);
 }
 
 li input[type="checkbox"]:checked + label .details {
-    color: #bbb;
+    color: var(--texto-secundario);
 }
 
 .details {
     display: block;
     font-size: 0.9em;
     font-weight: normal;
-    color: #757575;
+    color: var(--texto-secundario);
 }
 
 .details_ {
     display: block;
-    font-size: 0.7em;
-    font-weight: normal;
-    color:#D35400;
+    font-size: 0.75em;
+    font-weight: 400;
+    color: var(--cor-alerta);
     text-indent: 10px;
 }
 
 .voltar-btn {
-    display: inline-block;
-    margin-top: 30px;
+    display: block;
+    margin: 30px 0 10px 0;
     text-decoration: none;
     color: white;
-    background-color: #FF9800;
-    padding: 12px 25px;
-    border-radius: 5px;
+    background-color: var(--cor-destaque);
+    padding: 15px 25px;
+    border-radius: 8px;
     font-weight: bold;
+    text-align: center;
     transition: background-color 0.1s, transform 0.1s, box-shadow 0.1s;
-    box-shadow: 0 4px 0 #F57C00;
+    box-shadow: 0 4px 0 #1565C0;
 }
 
 .voltar-btn:active {
-    box-shadow: 0 1px 0 #F57C00;
+    box-shadow: 0 1px 0 #1565C0;
     transform: translateY(3px);
 }
 
-/* Contêiner que agrupa os dois exercícios de um Bi-Set */
 .biset-container {
-    border: 2px solid #FF9800;
+    border: 2px solid var(--cor-destaque);
     border-radius: 8px;
     margin-bottom: 25px;
     padding: 0;
-    text-align: left;
     width: 100%;
+    background-color: var(--fundo-bloco);
 }
 
 .biset-container h4 {
-    color: white;
-    padding: 5px 10px;
+    color: var(--texto-principal);
+    background-color: var(--borda-suave);
+    padding: 10px;
     margin: 0;
     border-radius: 6px 6px 0 0;
-    text-shadow: none;
+    border-bottom: 1px solid var(--borda-suave);
 }
 
 .exercicios-lista-biset li {
-    background-color: rgba(255, 255, 255, 0.08);
+    background-color: var(--fundo-bloco);
     padding: 8px 10px;
     margin: 0;
     border-radius: 0;
     font-size: 1.1em;
-    color: #E0E0E0;
+    color: var(--texto-principal);
     border-left: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid var(--borda-suave);
     line-height: 1.5;
     display: flex;
     align-items: flex-start;
-    text-align: left;   
 }
 
 .biset-container li:last-child {
