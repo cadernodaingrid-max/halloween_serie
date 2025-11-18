@@ -54,3 +54,62 @@
     }
   }
 }
+
+// ------------------------------------------------------------------------------------------------------------------
+
+{
+  "bw_b": {
+    "titulo": "Treino B - Semana Turbo - Superior (Empurrar)",
+    "descricao": "Treino B com foco em Bi-Sets para eficiência e progressão de carga.",
+    "bi_sets": [
+      {
+        "nome": "Execício Inicial:",
+        "exercicios": [
+          "Supino com Halteres"
+        ],
+        "notas": "-------------------"
+      },
+      {
+        "nome": "Bi-Set 1: Desenvolvimento Militar + Elevação Lateral",
+        "exercicios": [
+          "Desenvolvimento Militar",
+          "Elevação Lateral"
+        ],
+        "notas": "-------------------"
+      },
+      {
+        "nome": "Bi-Set 2: Elevação Frontal + Tríceps na Polia",
+        "exercicios": [
+          "Elevação Frontal",
+          "Tríceps na Polia"
+        ],
+        "notas": "-------------------"
+      },
+      {
+        "nome": "Single Set 2: Face Pull",
+        "exercicios": [
+          "Face Pull"
+        ],
+        "notas": "-------------------"
+      },
+      {
+        "nome": "Bi-Set 3: Elevação de Pernas + Flexão de Braço",
+        "exercicios": [
+          "Flexão de Braço",
+          "Elevação de Pernas"
+        ],
+        "notas": "-------------------"
+      }
+    ],
+    "progresso_esperado": {
+      "Supino com Halteres": "Fazer 3x15.",
+      "Desenvolvimento Militar": "3x20 com 45kg.",
+      "Elevação Lateral": "3x15 com 20kg.",
+      "Elevação Frontal": "3x20 com 20kg+.Pico de contração.",
+      "Tríceps na Polia": "3x20.",
+      "Face Pull": "3x15 com 30kg. Pico de contração.",
+      "Flexão de Braço": "3x20.",
+      "Elevação de Pernas": "3x15."
+    }
+  }
+}
