@@ -222,7 +222,7 @@
       {
         "nome": "Bi-Set 1: Flexão de Braços + Puxada na Polia Alta (Costas)",
         "exercicios": [
-          "Flexão de Braços",
+          "Flexão de Braço",
           "Puxada na Polia Alta (Costas)"
         ],
         "notas": "-------------------"
@@ -260,7 +260,7 @@
       }
     ],
     "progresso_esperado": {
-      "Flexão de Braços": "Inserir",
+      "Flexão de Braço": "Inserir",
       "Puxada na Polia Alta (Costas)": "Inserir",
       "Cadeira Extensora": "Inserir",
       "Cadeira Flexora": "Inserir",
