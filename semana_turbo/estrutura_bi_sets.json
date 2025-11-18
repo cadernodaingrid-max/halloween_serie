@@ -55,7 +55,8 @@
   }
 }
 
-// ------------------------------------------------------------------------------------------------------------------
+
+
 
 {
   "bw_b": {
@@ -72,8 +73,8 @@
       {
         "nome": "Bi-Set 1: Desenvolvimento Militar + Elevação Lateral",
         "exercicios": [
-          "Desenvolvimento Militar",
-          "Elevação Lateral"
+          "Desenvolvimento Militar (Sentado com Halteres)",
+          "Elevação Lateral (Com Halteres ou Cabo)"
         ],
         "notas": "-------------------"
       },
@@ -81,7 +82,7 @@
         "nome": "Bi-Set 2: Elevação Frontal + Tríceps na Polia",
         "exercicios": [
           "Elevação Frontal",
-          "Tríceps na Polia"
+          "Tríceps Pulley Alto Overhead"
         ],
         "notas": "-------------------"
       },
@@ -102,13 +103,13 @@
       }
     ],
     "progresso_esperado": {
-      "Supino com Halteres": "Fazer 3x15.",
-      "Desenvolvimento Militar": "3x20 com 45kg.",
-      "Elevação Lateral": "3x15 com 20kg.",
-      "Elevação Frontal": "3x20 com 20kg+.Pico de contração.",
-      "Tríceps na Polia": "3x20.",
-      "Face Pull": "3x15 com 30kg. Pico de contração.",
-      "Flexão de Braço": "3x20.",
+      "Supino com Halteres": "4x12. Drop-set na 4ª série.",
+      "Desenvolvimento Militar (Sentado com Halteres)": "3x12 com 7kg.",
+      "Elevação Lateral (Com Halteres ou Cabo)": "3x15 com 3kg.",
+      "Elevação Frontal": "3x15.",
+      "Tríceps Pulley Alto Overhead": "3x15 com 6.25kg.",
+      "Face Pull": "3x15 (carga leve).",
+      "Flexão de Braço": "3xMÁXIMO.",
       "Elevação de Pernas": "3x15."
     }
   }
