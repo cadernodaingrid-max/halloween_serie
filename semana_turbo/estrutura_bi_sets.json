@@ -108,5 +108,167 @@
       "Flexão de Braço": "3xMÁXIMO.",
       "Elevação de Pernas": "3x15."
     }
+  },
+
+
+  "bw_c": {
+    "titulo": "Treino C - Semana Turbo - Inferiores (Posterior)",
+    "descricao": "Treino C com foco em Bi-Sets para eficiência e progressão de carga.",
+    "bi_sets": [
+      {
+        "nome": "Single Set:",
+        "exercicios": [
+          "Stiff (Com Halteres ou Barra)"
+        ],
+        "notas": "-------------------"
+      },
+      {
+        "nome": "Bi-Set 1: Cadeira Flexora + Glúteo no Cabo (Kickback)",
+        "exercicios": [
+          "Cadeira Flexora",
+          "Glúteo no Cabo (Kickback)"
+        ],
+        "notas": "-------------------"
+      },
+      {
+        "nome": "Bi-Set 2: Adutora + Abdutora",
+        "exercicios": [
+          "Cadeira Abdutora",
+          "Cadeira Adutora"
+        ],
+        "notas": "-------------------"
+      }
+      {
+        "nome": "Bi-Set 3: Leg Press Horizontal + Panturrilha em pé",
+        "exercicios": [
+          "Leg Press Horizontal",
+          "Panturrilha em pé"
+        ],
+        "notas": "-------------------"
+      }
+    ],
+    "progresso_esperado": {
+      "Stiff (Com Halteres ou Barra)": "Inserir",
+      "Cadeira Flexora": "Inserir",
+      "Glúteo no Cabo (Kickback)": "Inserir",
+      "Cadeira Abdutora": "Inserir",
+      "Cadeira Adutora": "Inserir",
+      "Leg Press Horizontal": "Inserir",
+      "Panturrilha em pé": "Inserir"
+    }
+  },
+
+
+  "bw_d": {
+    "titulo": "Treino D - Semana Turbo - Superior (Puxar)",
+    "descricao": "Treino D com foco em Bi-Sets para eficiência e progressão de carga.",
+    "bi_sets": [
+      {
+        "nome": "Single Set 1:",
+        "exercicios": [
+          "Puxada na Polia Alta (Pegada Pronada)"
+        ],
+        "notas": "-------------------"
+      },
+      {
+        "nome": "Bi-Set 1: Remada Baixa (Sentado) + Rosca Direta (Barra W ou Halteres)",
+        "exercicios": [
+          "Remada Baixa (Sentado)",
+          "Rosca Direta (Barra W ou Halteres)"
+        ],
+        "notas": "-------------------"
+      },
+      {
+        "nome": "Bi-Set 2: Pull Down (Corda) + Rosca Martelo (Halteres)",
+        "exercicios": [
+          "Pull Down (Corda)",
+          "Rosca Martelo (Halteres)"
+        ],
+        "notas": "-------------------"
+      },
+      {
+        "nome": "Bi-Set 3: Remada Alta (Halteres) + Crucifixo Inverso",
+        "exercicios": [
+          "Remada Alta (Halteres)",
+          "Crucifixo Inverso"
+        ],
+        "notas": "-------------------"
+      },
+      {
+        "nome": "Single Set 2: Elevação de Pernas",
+        "exercicios": [
+          "Elevação de Pernas"
+        ],
+        "notas": "-------------------"
+      }
+    ],
+    "progresso_esperado": {
+      "Puxada na Polia Alta (Pegada Pronada)": "Inserir",
+      "Remada Baixa (Sentado)": "Inserir",
+      "Rosca Direta (Barra W ou Halteres)": "Inserir",
+      "Pull Down (Corda)": "Inserir",
+      "Rosca Martelo (Halteres)": "Inserir",
+      "Remada Alta (Halteres)": "Inserir",
+      "Crucifixo Inverso": "Inserir",
+      "Elevação de Pernas": "Inserir"
+    }
+  },
+
+
+  "bw_e": {
+    "titulo": "Treino E - Semana Turbo - Corpo Inteiro",
+    "descricao": "Treino E com foco em Bi-Sets para eficiência e progressão de carga.",
+    "bi_sets": [
+      {
+        "nome": "Bi-Set 1: Flexão de Braços + Puxada na Polia Alta (Costas)",
+        "exercicios": [
+          "Flexão de Braços",
+          "Puxada na Polia Alta (Costas)"
+        ],
+        "notas": "-------------------"
+      },
+      {
+        "nome": "Bi-Set 2: Cadeira Extensora + Cadeira Flexora",
+        "exercicios": [
+          "Cadeira Extensora",
+          "Cadeira Flexora"
+        ],
+        "notas": "-------------------"
+      },
+      {
+        "nome": "Bi-Set 3: Desenvolvimento Militar + Abdominal Russo",
+        "exercicios": [
+          "Desenvolvimento Militar (Sentado com Halteres)",
+          "Abdominal Russo"
+        ],
+        "notas": "-------------------"
+      },
+      {
+        "nome": "Bi-Set 4: Rosca Direta + Tríceps",
+        "exercicios": [
+          "Rosca Direta (Barra W ou Halteres)",
+          "Tríceps Pulley Alto Overhead"
+        ],
+        "notas": "-------------------"
+      },
+      {
+        "nome": "Single Set: Prancha Ventral",
+        "exercicios": [
+          "Prancha Ventral"
+        ],
+        "notas": "-------------------"
+      }
+    ],
+    "progresso_esperado": {
+      "Flexão de Braços": "Inserir",
+      "Puxada na Polia Alta (Costas)": "Inserir",
+      "Cadeira Extensora": "Inserir",
+      "Cadeira Flexora": "Inserir",
+      "Desenvolvimento Militar (Sentado com Halteres)": "Inserir",
+      "Abdominal Russo": "Inserir",
+      "Rosca Direta (Barra W ou Halteres)": "Inserir",
+      "Tríceps Pulley Alto Overhead": "Inserir",
+      "Prancha Ventral": "Inserir"
+    }
   }
 }
