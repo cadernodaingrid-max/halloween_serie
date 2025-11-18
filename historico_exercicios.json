@@ -469,7 +469,7 @@
       "cargas_kg": "Sem registro",
       "tecnica": "Sem registro",
       "repeticoes": ["Sem registro"]
-    }    
+    }
   ],
   "Elevação Frontal": [
     {
@@ -477,7 +477,7 @@
       "cargas_kg": "Sem registro",
       "tecnica": "Sem registro",
       "repeticoes": ["Sem registro"]
-    }    
+    }
   ],
   "Flexão de Braço": [
     {
@@ -485,35 +485,40 @@
       "cargas_kg": "Sem registro",
       "tecnica": "Sem registro",
       "repeticoes": ["Sem registro"]
-    },
+    }
+  ],
   "Puxada na Polia Alta (Costas)": [
     {
       "data": "Sem registro",
       "cargas_kg": "Sem registro",
       "tecnica": "Sem registro",
       "repeticoes": ["Sem registro"]
-    },
+    }
+  ],
   "Cadeira Adutora": [
     {
       "data": "Sem registro",
       "cargas_kg": "Sem registro",
       "tecnica": "Sem registro",
       "repeticoes": ["Sem registro"]
-    },
+    }
+  ],
   "Remada Alta (Halteres)": [
     {
       "data": "Sem registro",
       "cargas_kg": "Sem registro",
       "tecnica": "Sem registro",
       "repeticoes": ["Sem registro"]
-    },
+    }
+  ],
   "Crucifixo Inverso": [
     {
       "data": "Sem registro",
       "cargas_kg": "Sem registro",
       "tecnica": "Sem registro",
       "repeticoes": ["Sem registro"]
-    },
+    }
+  ],
   "Abdominal Russo": [
     {
       "data": "Sem registro",
