@@ -145,16 +145,24 @@
           "Panturrilha em pé"
         ],
         "notas": "-------------------"
+      },
+      {
+        "nome": "Single Set 2:",
+        "exercicios": [
+          "Hiperextensão Lombar"
+        ],
+        "notas": "-------------------"
       }
     ],
     "progresso_esperado": {
-      "Stiff (Com Halteres ou Barra)": "Inserir",
-      "Cadeira Flexora": "Inserir",
-      "Glúteo no Cabo (Kickback)": "Inserir",
-      "Cadeira Abdutora": "Inserir",
-      "Cadeira Adutora": "Inserir",
-      "Leg Press Horizontal": "Inserir",
-      "Panturrilha em pé": "Inserir"
+      "Stiff (Com Halteres ou Barra)": "3x15 com 20kg. TUT 4s",
+      "Cadeira Flexora": "3x15 com 20kg",
+      "Glúteo no Cabo (Kickback)": "3x15",
+      "Cadeira Abdutora": "3x15 com 35kg",
+      "Cadeira Adutora": "3x15",
+      "Leg Press Horizontal": "3x15 com 45kg",
+      "Panturrilha em pé": "3x20",
+      "Hiperextensão Lombar": "3x15"
     }
   },
 
@@ -203,14 +211,14 @@
       }
     ],
     "progresso_esperado": {
-      "Puxada na Polia Alta (Pegada Pronada)": "Inserir",
-      "Remada Baixa (Sentado)": "Inserir",
-      "Rosca Direta (Barra W ou Halteres)": "Inserir",
-      "Pull Down (Corda)": "Inserir",
-      "Rosca Martelo (Halteres)": "Inserir",
-      "Remada Alta (Halteres)": "Inserir",
-      "Crucifixo Inverso": "Inserir",
-      "Elevação de Pernas": "Inserir"
+      "Puxada na Polia Alta (Pegada Pronada)": "3x15 com 26kg  - PICO DE CONTRAÇÃO",
+      "Remada Baixa (Sentado)": "3x15 com 13.5kg",
+      "Rosca Direta (Barra W ou Halteres)": "3x15 com 12.5kg",
+      "Pull Down (Corda)": "3x15 com 7.5kg",
+      "Rosca Martelo (Halteres)": "3x15 com 4kg",
+      "Remada Alta (Halteres)": "3x20 com 4kg",
+      "Crucifixo Inverso": "3x20 - carga leve",
+      "Elevação de Pernas": "3x15"
     }
   },
 
@@ -260,15 +268,15 @@
       }
     ],
     "progresso_esperado": {
-      "Flexão de Braço": "Inserir",
-      "Puxada na Polia Alta (Costas)": "Inserir",
-      "Cadeira Extensora": "Inserir",
-      "Cadeira Flexora": "Inserir",
-      "Desenvolvimento Militar (Sentado com Halteres)": "Inserir",
-      "Abdominal Russo": "Inserir",
-      "Rosca Direta (Barra W ou Halteres)": "Inserir",
-      "Tríceps Pulley Alto Overhead": "Inserir",
-      "Prancha Ventral": "Inserir"
+      "Flexão de Braço": "3x MÁXIMO",
+      "Puxada na Polia Alta (Costas)": "3x15 com 26kg",
+      "Cadeira Extensora": "3x15 com 20kg",
+      "Cadeira Flexora": "3x15 com 20kg",
+      "Desenvolvimento Militar (Sentado com Halteres)": "3x12 com 7kg",
+      "Abdominal Russo": "3x15 - colocar um peso no pé",
+      "Rosca Direta (Barra W ou Halteres)": "3x15 com 5kg",
+      "Tríceps Pulley Alto Overhead": "3x15 com 6.25kg",
+      "Prancha Ventral": "3x1min"
     }
   }
 }
