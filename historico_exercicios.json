@@ -137,6 +137,12 @@
   ],
   "Supino com Halteres": [
     {
+      "data": "18/11/2025",
+      "cargas_kg": "8kg/10kg",
+      "tecnica": "DS",
+      "repeticoes": ["3x15, DS 8x"]
+    },
+    {
       "data": "14/11/2025",
       "cargas_kg": "8kg",
       "tecnica": "TUT descida",
@@ -169,6 +175,12 @@
   ],
   "Desenvolvimento Militar (Sentado com Halteres)": [
     {
+      "data": "18/11/2025",
+      "cargas_kg": "7kg/6kg",
+      "tecnica": "Bi-set",
+      "repeticoes": ["3x15"]
+    },
+    {
       "data": "11/11/2025",
       "cargas_kg": "6kg",
       "tecnica": "Bi-set, TUT",
@@ -194,6 +206,12 @@
     }
   ],
   "Elevação Lateral (Com Halteres ou Cabo)": [
+    {
+      "data": "18/11/2025",
+      "cargas_kg": "3kg",
+      "tecnica": "Bi-set",
+      "repeticoes": ["3x15"]
+    },
     {
       "data": "14/11/2025",
       "cargas_kg": "3kg",
@@ -227,6 +245,12 @@
   ],
   "Tríceps Pulley Alto Overhead": [
     {
+      "data": "18/11/2025",
+      "cargas_kg": "6.25kg",
+      "tecnica": "Bi-set",
+      "repeticoes": ["3x15"]
+    },
+    {
       "data": "11/11/2025",
       "cargas_kg": "6.75kg (3.75kg nas 12 últimas reps)",
       "tecnica": "Pico de Contração",
@@ -252,6 +276,12 @@
     }
   ],
   "Elevação de Pernas": [
+    {
+      "data": "18/11/2025",
+      "cargas_kg": "Peso corporal",
+      "tecnica": "Bi-set",
+      "repeticoes": ["3x15"]
+    },
     {
       "data": "11/11/2025",
       "cargas_kg": "Peso Corporal",
@@ -473,18 +503,18 @@
   ],
   "Elevação Frontal": [
     {
-      "data": "Sem registro",
-      "cargas_kg": "Sem registro",
-      "tecnica": "Sem registro",
-      "repeticoes": ["Sem registro"]
+      "data": "18/11/2025",
+      "cargas_kg": "3kg",
+      "tecnica": "Bi-set",
+      "repeticoes": ["3x15"]
     }
   ],
   "Flexão de Braço": [
     {
-      "data": "Sem registro",
-      "cargas_kg": "Sem registro",
-      "tecnica": "Sem registro",
-      "repeticoes": ["Sem registro"]
+      "data": "18/11/2025",
+      "cargas_kg": "Peso corporal",
+      "tecnica": "Bi-set",
+      "repeticoes": ["20 + 2x10"]
     }
   ],
   "Puxada na Polia Alta (Costas)": [
