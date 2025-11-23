@@ -85,6 +85,12 @@
   ],
   "Cadeira Flexora": [
     {
+      "data": "19/11/2025",
+      "cargas_kg": "20kg",
+      "tecnica": "Bi-set - cadeira",
+      "repeticoes": ["3x20"]
+    },
+    {
       "data": "17/11/2025",
       "cargas_kg": "20kg",
       "tecnica": "Bi-set - mesa",
@@ -277,6 +283,12 @@
   ],
   "Elevação de Pernas": [
     {
+      "data": "20/11/2025",
+      "cargas_kg": "Peso corporal",
+      "tecnica": "Full",
+      "repeticoes": ["3x15"]
+    },
+    {
       "data": "18/11/2025",
       "cargas_kg": "Peso corporal",
       "tecnica": "Bi-set",
@@ -309,6 +321,12 @@
   ],
   "Stiff (Com Halteres ou Barra)": [
     {
+      "data": "19/11/2025",
+      "cargas_kg": "17.5kg",
+      "tecnica": "TUT descida",
+      "repeticoes": ["3x15"]
+    },
+    {
       "data": "14/11/2025",
       "cargas_kg": "20kg",
       "tecnica": "Bi-set, TUT descida",
@@ -328,6 +346,12 @@
     }
   ],
   "Cadeira Abdutora": [
+    {
+      "data": "19/11/2025",
+      "cargas_kg": "35kg",
+      "tecnica": "Bi-set",
+      "repeticoes": ["3x15"]
+    },
     {
       "data": "17/11/2025",
       "cargas_kg": "35kg",
@@ -354,6 +378,12 @@
     }
   ],
   "Glúteo no Cabo (Kickback)": [
+    {
+      "data": "19/11/2025",
+      "cargas_kg": "15kg",
+      "tecnica": "Bi-set",
+      "repeticoes": ["3x15"]
+    },
     {
       "data": "12/11/2025",
       "cargas_kg": "15kg",
@@ -395,6 +425,12 @@
   ],
   "Puxada na Polia Alta (Pegada Pronada)": [
     {
+      "data": "20/11/2025",
+      "cargas_kg": "26kg",
+      "tecnica": "Pico de Contração",
+      "repeticoes": ["3x15"]
+    },
+    {
       "data": "13/11/2025",
       "cargas_kg": "26kg, 33kg(final)",
       "tecnica": "TUT 4s na descida",
@@ -408,6 +444,12 @@
     }
   ],
   "Remada Baixa (Sentado)": [
+    {
+      "data": "20/11/2025",
+      "cargas_kg": "13.25kg",
+      "tecnica": "Bi-set",
+      "repeticoes": ["3x15"]
+    },
     {
       "data": "13/11/2025",
       "cargas_kg": "13.25kg",
@@ -423,6 +465,12 @@
   ],
   "Pull Down (Corda)": [
     {
+      "data": "20/11/2025",
+      "cargas_kg": "7.5kg",
+      "tecnica": "Bi-set",
+      "repeticoes": ["3x15"]
+    },
+    {
       "data": "13/11/2025",
       "cargas_kg": "7.5kg, 5kg DS",
       "tecnica": "Drop Set",
@@ -437,10 +485,10 @@
   ],
   "Rosca Direta (Barra W ou Halteres)": [
     {
-      "data": "13/11/2025",
-      "cargas_kg": "12.5kg, 10kg(final)",
-      "tecnica": "Rest Pause",
-      "repeticoes": ["3x15, 4+4 RP"]
+      "data": "20/11/2025",
+      "cargas_kg": "10kg",
+      "tecnica": "Bi-set",
+      "repeticoes": ["3x15"]
     },
     {
       "data": "23/10/2025",
@@ -450,6 +498,12 @@
     }
   ],
   "Rosca Martelo (Halteres)": [
+    {
+      "data": "20/11/2025",
+      "cargas_kg": "4kg",
+      "tecnica": "Bi-set",
+      "repeticoes": ["3x15"]
+    },
     {
       "data": "13/11/2025",
       "cargas_kg": "4kg, 3kg(DS)",
@@ -469,12 +523,6 @@
       "cargas_kg": "15kg",
       "tecnica": "Bi-set",
       "repeticoes": ["3x15"]
-    },
-    {
-      "data": "Data Não Registrada",
-      "cargas_kg": "Sem dados de carga registrados",
-      "tecnica": "Bi-Set",
-      "repeticoes": ["3x10-12"]
     }
   ],
   "Prancha Ventral": [
@@ -527,26 +575,26 @@
   ],
   "Cadeira Adutora": [
     {
-      "data": "Sem registro",
-      "cargas_kg": "Sem registro",
-      "tecnica": "Sem registro",
-      "repeticoes": ["Sem registro"]
+      "data": "19/11/2025",
+      "cargas_kg": "35kg",
+      "tecnica": "Bi-set",
+      "repeticoes": ["3x15"]
     }
   ],
   "Remada Alta (Halteres)": [
     {
-      "data": "Sem registro",
-      "cargas_kg": "Sem registro",
-      "tecnica": "Sem registro",
-      "repeticoes": ["Sem registro"]
+      "data": "20/11/2025",
+      "cargas_kg": "5kg",
+      "tecnica": "Bi-set",
+      "repeticoes": ["3x15"]
     }
   ],
   "Crucifixo Inverso": [
     {
-      "data": "Sem registro",
-      "cargas_kg": "Sem registro",
-      "tecnica": "Sem registro",
-      "repeticoes": ["Sem registro"]
+      "data": "20/11/2025",
+      "cargas_kg": "15kg",
+      "tecnica": "Bi-set",
+      "repeticoes": ["3x15"]
     }
   ],
   "Abdominal Russo": [
