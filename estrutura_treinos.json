@@ -6,14 +6,16 @@
       "Leg Press Horizontal",
       "Cadeira Extensora",
       "Cadeira Flexora",
-      "Hiperextensão Lombar"
+      "Panturrilha em Pé",
+      "Abdominal Máquina"
     ],
     "progresso_esperado": {
-        "Agachamento na Máquina Smith": "3x15 - Anilhas de 5kg a 7.5kg. TUT 3s na descida.",
-        "Leg Press Horizontal": "3x20 - 45kg a 50kg. DROP-SET (DS) na 3ª série.",
-        "Cadeira Extensora":"3x20 - 20kg a 25kg. PICO DE CONTRAÇÃO 2s.",
-        "Cadeira Flexora":"3x20 - 20kg a 25kg. Rest-Pause na 3ª série.",
-        "Hiperextensão Lombar":"3x20."
+        "Agachamento na Máquina Smith": "3x12. Barra sem anilhas.",
+        "Leg Press Horizontal": "3x12 - 50kg.",
+        "Cadeira Extensora": "3x15 - 20kg.",
+        "Cadeira Flexora": "3x15 - 20kg.",
+        "Panturrilha em Pé": "3x15",
+        "Abdominal Máquina":"3x20."
     }
   },
   "treino_b": {
