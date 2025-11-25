@@ -1,6 +1,12 @@
 {
   "Agachamento na Máquina Smith": [
     {
+      "data": "24/11/2025",
+      "cargas_kg": "0kg",
+      "tecnica": "Barra Livre",
+      "repeticoes": ["3x12"]
+    },
+    {
       "data": "17/11/2025",
       "cargas_kg": "0kg",
       "tecnica": "Barra Livre",
@@ -27,6 +33,12 @@
   ],
   "Leg Press Horizontal": [
     {
+      "data": "24/11/2025",
+      "cargas_kg": "50kg",
+      "tecnica": "Reta",
+      "repeticoes": ["3x12"]
+    },
+    {
       "data": "17/11/2025",
       "cargas_kg": "45kg",
       "tecnica": "Bi-set",
@@ -52,6 +64,12 @@
     }
   ],
   "Cadeira Extensora": [
+    {
+      "data": "24/11/2025",
+      "cargas_kg": "20kg",
+      "tecnica": "Reta",
+      "repeticoes": ["3x15"]
+    },
     {
       "data": "17/11/2025",
       "cargas_kg": "20kg",
@@ -84,6 +102,12 @@
     }
   ],
   "Cadeira Flexora": [
+    {
+      "data": "24/11/2025",
+      "cargas_kg": "20kg",
+      "tecnica": "Reta",
+      "repeticoes": ["3x15"]
+    },
     {
       "data": "19/11/2025",
       "cargas_kg": "20kg",
@@ -399,6 +423,12 @@
   ],
   "Panturrilha em Pé": [
     {
+      "data": "24/11/2025",
+      "cargas_kg": "Peso corporal",
+      "tecnica": "Reta",
+      "repeticoes": ["3x20"]
+    },
+    {
       "data": "17/11/2025",
       "cargas_kg": "Peso corporal",
       "tecnica": "Bi-set",
@@ -534,6 +564,12 @@
     }
   ],
   "Abdominal Máquina": [
+    {
+      "data": "24/11/2025",
+      "cargas_kg": "25kg",
+      "tecnica": "Reta",
+      "repeticoes": ["3x20"]
+    },
     {
       "data": "17/11/2025",
       "cargas_kg": "20kg",
