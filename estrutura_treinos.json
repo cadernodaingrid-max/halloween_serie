@@ -43,17 +43,21 @@
     "titulo": "Treino C: Membros Inferiores - Ênfase Posterior",
     "exercicios": [
       "Stiff (Com Halteres ou Barra)",
-      "Cadeira Abdutora",
       "Cadeira Flexora",
       "Glúteo no Cabo (Kickback)",
-      "Panturrilha em Pé"
+      "Cadeira Adutora",
+      "Cadeira Abdutora",
+      "Leg Press Horizontal",
+      "Hiperextensão Lombar"
     ],
     "progresso_esperado": {
-        "Stiff (Com Halteres ou Barra)": "4x15reps. 15 a 20kg. TUT 4s na descida.",
-        "Cadeira Abdutora": "3x20reps. 40 a 45kg. Pico de contração 2s.",
-        "Cadeira Flexora": "3x20reps. 20 a 22.5kg. Rest-Pause na 3ª série.",
-        "Glúteo no Cabo (Kickback)": "3x20reps. 30kg. Pico de contração 2s.",
-        "Panturrilha em Pé": "4x20reps"
+        "Stiff (Com Halteres ou Barra)": "3x12. 15kg.",
+        "Cadeira Abdutora": "3x15. 30kg",
+        "Cadeira Flexora": "3x15. 20kg",
+        "Glúteo no Cabo (Kickback)": "3x15. 10kg",
+        "Hiperextensão Lombar": "3x15",
+        "Leg Press Horizontal": "3x15. 50kg",
+        "Cadeira Adutora": "3x15. 30kg"
     }
   },
   "treino_d": {
