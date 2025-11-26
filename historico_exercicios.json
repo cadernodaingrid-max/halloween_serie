@@ -167,6 +167,12 @@
   ],
   "Supino com Halteres": [
     {
+      "data": "25/11/2025",
+      "cargas_kg": "8kg",
+      "tecnica": "Simples",
+      "repeticoes": ["3x12"]
+    },
+    {
       "data": "18/11/2025",
       "cargas_kg": "8kg/10kg",
       "tecnica": "DS",
@@ -205,6 +211,12 @@
   ],
   "Desenvolvimento Militar (Sentado com Halteres)": [
     {
+      "data": "25/11/2025",
+      "cargas_kg": "6kg",
+      "tecnica": "Simples",
+      "repeticoes": ["3x12"]
+    },
+    {
       "data": "18/11/2025",
       "cargas_kg": "7kg/6kg",
       "tecnica": "Bi-set",
@@ -236,6 +248,12 @@
     }
   ],
   "Elevação Lateral (Com Halteres ou Cabo)": [
+    {
+      "data": "25/11/2025",
+      "cargas_kg": "3kg",
+      "tecnica": "Simples",
+      "repeticoes": ["3x15"]
+    },
     {
       "data": "18/11/2025",
       "cargas_kg": "3kg",
@@ -275,6 +293,12 @@
   ],
   "Tríceps Pulley Alto Overhead": [
     {
+      "data": "25/11/2025",
+      "cargas_kg": "6.25kg",
+      "tecnica": "Simples",
+      "repeticoes": ["3x15"]
+    },
+    {
       "data": "18/11/2025",
       "cargas_kg": "6.25kg",
       "tecnica": "Bi-set",
@@ -306,6 +330,12 @@
     }
   ],
   "Elevação de Pernas": [
+    {
+      "data": "25/11/2025",
+      "cargas_kg": "Peso Corporal",
+      "tecnica": "Full (Completando com Tuck)",
+      "repeticoes": ["3x15"]
+    },
     {
       "data": "20/11/2025",
       "cargas_kg": "Peso corporal",
@@ -579,6 +609,12 @@
   ],
   "Face Pull": [
     {
+      "data": "25/11/2025",
+      "cargas_kg": "6.25kg",
+      "tecnica": "Simples",
+      "repeticoes": ["3x15"]
+    }
+    {
       "data": "18/11/2025",
       "cargas_kg": "6.25kg",
       "tecnica": "Simples",
@@ -586,6 +622,12 @@
     }
   ],
   "Elevação Frontal": [
+    {
+      "data": "25/11/2025",
+      "cargas_kg": "3kg",
+      "tecnica": "Simples",
+      "repeticoes": ["3x15"]
+    },
     {
       "data": "18/11/2025",
       "cargas_kg": "3kg",
