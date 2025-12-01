@@ -33,6 +33,12 @@
   ],
   "Leg Press Horizontal": [
     {
+      "data": "27/11/2025",
+      "cargas_kg": "50kg",
+      "tecnica": "Transição",
+      "repeticoes": ["3x15"]
+    },
+    {
       "data": "24/11/2025",
       "cargas_kg": "50kg",
       "tecnica": "Reta",
@@ -103,6 +109,12 @@
   ],
   "Cadeira Flexora": [
     {
+      "data": "27/11/2025",
+      "cargas_kg": "20kg",
+      "tecnica": "Reta",
+      "repeticoes": ["3x15"]
+    },
+    {
       "data": "24/11/2025",
       "cargas_kg": "20kg",
       "tecnica": "Reta",
@@ -152,6 +164,12 @@
     }
   ],
   "Hiperextensão Lombar": [
+    {
+      "data": "27/11/2025",
+      "cargas_kg": "5kg",
+      "tecnica": "Transição",
+      "repeticoes": ["3x15"]
+    },
     {
       "data": "17/11/2025",
       "cargas_kg": "Peso corporal",
@@ -337,6 +355,12 @@
       "repeticoes": ["3x15"]
     },
     {
+      "data": "25/11/2025",
+      "cargas_kg": "Peso Corporal",
+      "tecnica": "Full (Completando com Tuck)",
+      "repeticoes": ["3x15"]
+    },
+    {
       "data": "20/11/2025",
       "cargas_kg": "Peso corporal",
       "tecnica": "Full",
@@ -375,6 +399,12 @@
   ],
   "Stiff (Com Halteres ou Barra)": [
     {
+      "data": "27/11/2025",
+      "cargas_kg": "15kg",
+      "tecnica": "Transição",
+      "repeticoes": ["3x12"]
+    },
+    {
       "data": "19/11/2025",
       "cargas_kg": "17.5kg",
       "tecnica": "TUT descida",
@@ -400,6 +430,12 @@
     }
   ],
   "Cadeira Abdutora": [
+    {
+      "data": "27/11/2025",
+      "cargas_kg": "30kg",
+      "tecnica": "Transição",
+      "repeticoes": ["3x15"]
+    },
     {
       "data": "19/11/2025",
       "cargas_kg": "35kg",
@@ -432,6 +468,12 @@
     }
   ],
   "Glúteo no Cabo (Kickback)": [
+    {
+      "data": "27/11/2025",
+      "cargas_kg": "10kg",
+      "tecnica": "Transição",
+      "repeticoes": ["3x15"]
+    },
     {
       "data": "19/11/2025",
       "cargas_kg": "15kg",
@@ -485,6 +527,12 @@
   ],
   "Puxada na Polia Alta (Pegada Pronada)": [
     {
+      "data": "28/11/2025",
+      "cargas_kg": "23kg",
+      "tecnica": "Transição",
+      "repeticoes": ["3x12"]
+    },
+    {
       "data": "20/11/2025",
       "cargas_kg": "26kg",
       "tecnica": "Pico de Contração",
@@ -504,6 +552,12 @@
     }
   ],
   "Remada Baixa (Sentado)": [
+    {
+      "data": "28/11/2025",
+      "cargas_kg": "13.5kg",
+      "tecnica": "Transição",
+      "repeticoes": ["3x12"]
+    },
     {
       "data": "20/11/2025",
       "cargas_kg": "13.25kg",
@@ -525,6 +579,12 @@
   ],
   "Pull Down (Corda)": [
     {
+      "data": "28/11/2025",
+      "cargas_kg": "7.5kg",
+      "tecnica": "Transição",
+      "repeticoes": ["3x15"]
+    },
+    {
       "data": "20/11/2025",
       "cargas_kg": "7.5kg",
       "tecnica": "Bi-set",
@@ -545,6 +605,12 @@
   ],
   "Rosca Direta (Barra W ou Halteres)": [
     {
+      "data": "28/11/2025",
+      "cargas_kg": "10kg",
+      "tecnica": "Transição",
+      "repeticoes": ["3x15"]
+    },
+    {
       "data": "20/11/2025",
       "cargas_kg": "10kg",
       "tecnica": "Bi-set",
@@ -558,6 +624,12 @@
     }
   ],
   "Rosca Martelo (Halteres)": [
+    {
+      "data": "28/11/2025",
+      "cargas_kg": "4kg",
+      "tecnica": "Transição",
+      "repeticoes": ["3x15"]
+    },
     {
       "data": "20/11/2025",
       "cargas_kg": "4kg",
@@ -652,6 +724,12 @@
     }
   ],
   "Cadeira Adutora": [
+    {
+      "data": "27/11/2025",
+      "cargas_kg": "30kg",
+      "tecnica": "Transição",
+      "repeticoes": ["3x15"]
+    },
     {
       "data": "19/11/2025",
       "cargas_kg": "35kg",
