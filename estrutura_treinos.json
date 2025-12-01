@@ -10,12 +10,12 @@
       "Abdominal Máquina"
     ],
     "progresso_esperado": {
-        "Agachamento na Máquina Smith": "3x12. Barra sem anilhas.",
-        "Leg Press Horizontal": "3x12 - 50kg.",
-        "Cadeira Extensora": "3x15 - 20kg.",
-        "Cadeira Flexora": "3x15 - 20kg.",
-        "Panturrilha em Pé": "3x15",
-        "Abdominal Máquina":"3x20."
+        "Agachamento na Máquina Smith": "3x10. Carga aumentada.",
+        "Leg Press Horizontal": "3x12. Carga aumentada.",
+        "Cadeira Extensora": "3x15 - 30kg.",
+        "Cadeira Flexora": "3x15 - 25kg.",
+        "Panturrilha em Pé": "3x15. Inserir carga.",
+        "Abdominal Máquina":"3x20. 25kg no mínimo."
     }
   },
   "treino_b": {
