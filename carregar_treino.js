@@ -47,7 +47,7 @@ async function carregarTreino() {
             if (ultimoRegistro) {
                 htmlGerado += `
                     <p class="historico-registro ultimo">
-                        ${formatarRegistro(ultimoRegistro, 'Último Treino')}
+                        ${formatarRegistro(ultimoRegistro, 'Último Regristro')}
                     </p>
                 `;
             } else {
@@ -57,7 +57,7 @@ async function carregarTreino() {
             if (penultimoRegistro) {
                 htmlGerado += `
                     <p class="historico-registro penultimo">
-                        ${formatarRegistro(penultimoRegistro, 'Penúltimo Treino')}
+                        ${formatarRegistro(penultimoRegistro, 'Primeiro Registro')}
                     </p>
                 `;
             }
