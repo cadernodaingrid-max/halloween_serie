@@ -1,10 +1,10 @@
 {
   "Agachamento na Máquina Smith": [
     {
-      "data": "24/11/2025",
-      "cargas_kg": "0kg",
-      "tecnica": "Barra Livre",
-      "repeticoes": ["3x12"]
+      "data": "01/12/2025",
+      "cargas_kg": "Anilhas de 2.5kg, 5kg, 7.5kg",
+      "tecnica": "Smith",
+      "repeticoes": ["3x10"]
     },
     {
       "data": "13/10/2025",
@@ -15,10 +15,10 @@
   ],
   "Leg Press Horizontal": [
     {
-      "data": "27/11/2025",
-      "cargas_kg": "50kg",
-      "tecnica": "Transição",
-      "repeticoes": ["3x15"]
+      "data": "01/12/2025",
+      "cargas_kg": "40kg",
+      "tecnica": "Máquina 45",
+      "repeticoes": ["3x12"]
     },
     {
       "data": "13/10/2025",
@@ -29,8 +29,8 @@
   ],
   "Cadeira Extensora": [
     {
-      "data": "24/11/2025",
-      "cargas_kg": "20kg",
+      "data": "01/12/2025",
+      "cargas_kg": "27.5kg",
       "tecnica": "Reta",
       "repeticoes": ["3x15"]
     },
@@ -43,8 +43,8 @@
   ],
   "Cadeira Flexora": [
     {
-      "data": "27/11/2025",
-      "cargas_kg": "20kg",
+      "data": "01/12/2025",
+      "cargas_kg": "25kg",
       "tecnica": "Reta",
       "repeticoes": ["3x15"]
     },
@@ -71,10 +71,10 @@
   ],
   "Supino com Halteres": [
     {
-      "data": "25/11/2025",
-      "cargas_kg": "8kg",
+      "data": "02/12/2025",
+      "cargas_kg": "10kg",
       "tecnica": "Simples",
-      "repeticoes": ["3x12"]
+      "repeticoes": ["3x10"]
     },
     {
       "data": "21/10/2025",
@@ -85,10 +85,10 @@
   ],
   "Desenvolvimento Militar (Sentado com Halteres)": [
     {
-      "data": "25/11/2025",
-      "cargas_kg": "6kg",
+      "data": "02/12/2025",
+      "cargas_kg": "7/8kg",
       "tecnica": "Simples",
-      "repeticoes": ["3x12"]
+      "repeticoes": ["3x10"]
     },
     {
       "data": "21/10/2025",
@@ -99,8 +99,8 @@
   ],
   "Elevação Lateral (Com Halteres ou Cabo)": [
     {
-      "data": "25/11/2025",
-      "cargas_kg": "3kg",
+      "data": "02/12/2025",
+      "cargas_kg": "4kg",
       "tecnica": "Simples",
       "repeticoes": ["3x15"]
     },
@@ -113,10 +113,10 @@
   ],
   "Tríceps Pulley Alto Overhead": [
     {
-      "data": "25/11/2025",
-      "cargas_kg": "6.25kg",
+      "data": "02/12/2025",
+      "cargas_kg": "6.25kg/8.75kg",
       "tecnica": "Simples",
-      "repeticoes": ["3x15"]
+      "repeticoes": ["3x15 + 1x12"]
     },
     {
       "data": "21/10/2025",
@@ -127,9 +127,9 @@
   ],
   "Elevação de Pernas": [
     {
-      "data": "25/11/2025",
+      "data": "02/12/2025",
       "cargas_kg": "Peso Corporal",
-      "tecnica": "Full (Completando com Tuck)",
+      "tecnica": "Full (Completando com Tuck (0,3,5))",
       "repeticoes": ["3x15"]
     },
     {
@@ -183,7 +183,7 @@
   ],
   "Panturrilha em Pé": [
     {
-      "data": "24/11/2025",
+      "data": "01/12/2025",
       "cargas_kg": "Peso corporal",
       "tecnica": "Reta",
       "repeticoes": ["3x20"]
@@ -283,10 +283,10 @@
   ],
   "Abdominal Máquina": [
     {
-      "data": "24/11/2025",
+      "data": "01/12/2025",
       "cargas_kg": "25kg",
       "tecnica": "Reta",
-      "repeticoes": ["3x20"]
+      "repeticoes": ["3x15"]
     },
     {
       "data": "17/11/2025",
@@ -297,7 +297,7 @@
   ],
   "Face Pull": [
     {
-      "data": "25/11/2025",
+      "data": "02/12/2025",
       "cargas_kg": "6.25kg",
       "tecnica": "Simples",
       "repeticoes": ["3x15"]
@@ -311,10 +311,10 @@
   ],
   "Elevação Frontal": [
     {
-      "data": "25/11/2025",
-      "cargas_kg": "3kg",
+      "data": "02/12/2025",
+      "cargas_kg": "4kg",
       "tecnica": "Simples",
-      "repeticoes": ["3x15"]
+      "repeticoes": ["2x15, 1x12"]
     },
     {
       "data": "18/11/2025",
