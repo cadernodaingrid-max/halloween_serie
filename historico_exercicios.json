@@ -50,7 +50,7 @@
     },
     {
       "data": "13/10/2025",
-      "cargas_kg": "25kg",
+      "cargas_kg": "20kg",
       "tecnica": "Normal",
       "repeticoes": ["3x10-15"]
     }
@@ -148,7 +148,7 @@
     },
     {
       "data": "22/10/2025",
-      "cargas_kg": "barra 20kg",
+      "cargas_kg": "barra 12kg",
       "tecnica": "TUT 4s na descida",
       "repeticoes": ["4x8-12"]
     }
@@ -162,7 +162,7 @@
     },
     {
       "data": "22/10/2025",
-      "cargas_kg": "50kg - Pico de Contração na última série",
+      "cargas_kg": "30kg - Pico de Contração na última série",
       "tecnica": "Pico de Contração 2s",
       "repeticoes": ["3x10-12"]
     }
