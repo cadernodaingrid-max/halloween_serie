@@ -47,17 +47,17 @@
       "Glúteo no Cabo (Kickback)",
       "Cadeira Adutora",
       "Cadeira Abdutora",
-      "Leg Press Horizontal",
-      "Hiperextensão Lombar"
+      "Hiperextensão Lombar",
+      "Panturrilha em Pé"
     ],
     "progresso_esperado": {
-        "Stiff (Com Halteres ou Barra)": "3x12. 15kg.",
-        "Cadeira Abdutora": "3x15. 30kg",
-        "Cadeira Flexora": "3x15. 20kg",
-        "Glúteo no Cabo (Kickback)": "3x15. 10kg",
-        "Hiperextensão Lombar": "3x15",
-        "Leg Press Horizontal": "3x15. 50kg",
-        "Cadeira Adutora": "3x15. 30kg"
+        "Stiff (Com Halteres ou Barra)": "Aquecimento - 2x15 com carga leve. Treino principal: 3x10 com 20kg.",
+        "Cadeira Abdutora": "3x15. mínimo 35kg",
+        "Cadeira Flexora": "3x15. mínimo 25kg",
+        "Glúteo no Cabo (Kickback)": "3x15. mínimo 15kg",
+        "Hiperextensão Lombar": "3x15. Anilha 5kg",
+        "Panturrilha em Pé": "3x15. Fazer sentada - carga a ver.",
+        "Cadeira Adutora": "3x15. mínimo 35kg"
     }
   },
   "treino_d": {
