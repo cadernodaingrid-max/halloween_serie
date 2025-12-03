@@ -7,24 +7,6 @@
       "repeticoes": ["3x12"]
     },
     {
-      "data": "17/11/2025",
-      "cargas_kg": "0kg",
-      "tecnica": "Barra Livre",
-      "repeticoes": ["3x15"]
-    },
-    {
-      "data": "03/11/2025",
-      "cargas_kg": "0kg, 2.5kg, 2.5kg, 5kg",
-      "tecnica": "Barra Livre / Cluster Set (1ª e 4ª séries)",
-      "repeticoes": ["3x4, 12, 12, 3x4"]
-    },
-    {
-      "data": "20/10/2025",
-      "cargas_kg": "0kg, 2.5kg, 5kg e 5kg",
-      "tecnica": "Smith, TUT",
-      "repeticoes": ["12, 12, 12, 12"]
-    },
-    {
       "data": "13/10/2025",
       "cargas_kg": "0kg",
       "tecnica": "RP, barra livre",
@@ -37,30 +19,6 @@
       "cargas_kg": "50kg",
       "tecnica": "Transição",
       "repeticoes": ["3x15"]
-    },
-    {
-      "data": "24/11/2025",
-      "cargas_kg": "50kg",
-      "tecnica": "Reta",
-      "repeticoes": ["3x12"]
-    },
-    {
-      "data": "17/11/2025",
-      "cargas_kg": "45kg",
-      "tecnica": "Bi-set",
-      "repeticoes": ["3x15"]
-    },
-    {
-      "data": "03/11/2025",
-      "cargas_kg": "45kg, 47.5kg, 50kg",
-      "tecnica": "Cluster Set na 3ª série",
-      "repeticoes": ["12, 12, 3x4"]
-    },
-    {
-      "data": "20/10/2025",
-      "cargas_kg": "37.5kg, 45kg, 50kg",
-      "tecnica": "Normal",
-      "repeticoes": ["12, 12, 12"]
     },
     {
       "data": "13/10/2025",
@@ -77,30 +35,6 @@
       "repeticoes": ["3x15"]
     },
     {
-      "data": "17/11/2025",
-      "cargas_kg": "20kg",
-      "tecnica": "Bi-set",
-      "repeticoes": ["3x15"]
-    },
-    {
-      "data": "14/11/2025",
-      "cargas_kg": "20kg",
-      "tecnica": "simples",
-      "repeticoes": ["3x15"]
-    },
-    {
-      "data": "03/11/2025",
-      "cargas_kg": "30kg 1x15 + 2x12. DS 20kg 5x.",
-      "tecnica": "Drop-Set (DS) na 3ª",
-      "repeticoes": ["3x12-15"]
-    },
-    {
-      "data": "20/10/2025",
-      "cargas_kg": "30kg. TUT na última.",
-      "tecnica": "TUT na última",
-      "repeticoes": ["3x12-15"]
-    },
-    {
       "data": "13/10/2025",
       "cargas_kg": "30kg, drop-set 20kg",
       "tecnica": "Drop-set",
@@ -113,48 +47,6 @@
       "cargas_kg": "20kg",
       "tecnica": "Reta",
       "repeticoes": ["3x15"]
-    },
-    {
-      "data": "24/11/2025",
-      "cargas_kg": "20kg",
-      "tecnica": "Reta",
-      "repeticoes": ["3x15"]
-    },
-    {
-      "data": "19/11/2025",
-      "cargas_kg": "20kg",
-      "tecnica": "Bi-set - cadeira",
-      "repeticoes": ["3x20"]
-    },
-    {
-      "data": "17/11/2025",
-      "cargas_kg": "20kg",
-      "tecnica": "Bi-set - mesa",
-      "repeticoes": ["3x15"]
-    },
-    {
-      "data": "12/11/2025",
-      "cargas_kg": "20kg",
-      "tecnica": "Rest-Pause (RP) na 3ª",
-      "repeticoes": ["3x20, 3+3"]
-    },
-    {
-      "data": "03/11/2025",
-      "cargas_kg": "27.5kg.",
-      "tecnica": "Rest-Pause (RP) na 3ª",
-      "repeticoes": ["3x12"]
-    },
-    {
-      "data": "22/10/2025",
-      "cargas_kg": "25kg. 5x Drop-set 20kg",
-      "tecnica": "Rest-Pause / Drop-Set",
-      "repeticoes": ["3x12-15"]
-    },
-    {
-      "data": "20/10/2025",
-      "cargas_kg": "25kg + DS 20kg (8)",
-      "tecnica": "Drop-Set (DS)",
-      "repeticoes": ["3x10-15"]
     },
     {
       "data": "13/10/2025",
@@ -175,12 +67,6 @@
       "cargas_kg": "Peso corporal",
       "tecnica": "Simples",
       "repeticoes": ["3x15"]
-    },
-    {
-      "data": "Data Não Registrada",
-      "cargas_kg": "Peso corporal",
-      "tecnica": "Normal",
-      "repeticoes": ["3x10"]
     }
   ],
   "Supino com Halteres": [
@@ -189,36 +75,6 @@
       "cargas_kg": "8kg",
       "tecnica": "Simples",
       "repeticoes": ["3x12"]
-    },
-    {
-      "data": "18/11/2025",
-      "cargas_kg": "8kg/10kg",
-      "tecnica": "DS",
-      "repeticoes": ["3x15, DS 8x"]
-    },
-    {
-      "data": "14/11/2025",
-      "cargas_kg": "8kg",
-      "tecnica": "TUT descida",
-      "repeticoes": ["3x15"]
-    },
-    {
-      "data": "11/11/2025",
-      "cargas_kg": "8kg",
-      "tecnica": "TUT",
-      "repeticoes": ["3x20"]
-    },
-    {
-      "data": "5/11/2025",
-      "cargas_kg": "10kg. Cluster Set 4x + 4x + 4x.",
-      "tecnica": "Cluster Set",
-      "repeticoes": ["4x12"]
-    },
-    {
-      "data": "28/10/2025",
-      "cargas_kg": "10kg. Cluster Set 4x + 3x + 3x. 2x12. Cluster Set 4x + 3x + 5x",
-      "tecnica": "Cluster Set",
-      "repeticoes": ["4x8-10"]
     },
     {
       "data": "21/10/2025",
@@ -235,30 +91,6 @@
       "repeticoes": ["3x12"]
     },
     {
-      "data": "18/11/2025",
-      "cargas_kg": "7kg/6kg",
-      "tecnica": "Bi-set",
-      "repeticoes": ["3x15"]
-    },
-    {
-      "data": "11/11/2025",
-      "cargas_kg": "6kg",
-      "tecnica": "Bi-set, TUT",
-      "repeticoes": ["2x20 + 1X17"]
-    },
-    {
-      "data": "5/11/2025",
-      "cargas_kg": "8kg. RP: 2x3",
-      "tecnica": "Rest-Pause (RP)",
-      "repeticoes": ["3x12"]
-    },
-    {
-      "data": "28/10/2025",
-      "cargas_kg": "8kg. 12 reps em cada série. RP: 1x2",
-      "tecnica": "Rest-Pause (RP)",
-      "repeticoes": ["3x10-12"]
-    },
-    {
       "data": "21/10/2025",
       "cargas_kg": "7kg",
       "tecnica": "Normal",
@@ -271,36 +103,6 @@
       "cargas_kg": "3kg",
       "tecnica": "Simples",
       "repeticoes": ["3x15"]
-    },
-    {
-      "data": "18/11/2025",
-      "cargas_kg": "3kg",
-      "tecnica": "Bi-set",
-      "repeticoes": ["3x15"]
-    },
-    {
-      "data": "14/11/2025",
-      "cargas_kg": "3kg",
-      "tecnica": "Bi-set",
-      "repeticoes": ["3x15"]
-    },
-    {
-      "data": "11/11/2025",
-      "cargas_kg": "3kg",
-      "tecnica": "Drop Set",
-      "repeticoes": ["3x20 + DS 5x"]
-    },
-    {
-      "data": "5/11/2025",
-      "cargas_kg": "3kg TUT. 1x20 + 2x15. DS 2kg 10x",
-      "tecnica": "TUT, Drop-Set",
-      "repeticoes": ["3x15-20"]
-    },
-    {
-      "data": "28/10/2025",
-      "cargas_kg": "3kg TUT. 2x20 + 1x15",
-      "tecnica": "TUT",
-      "repeticoes": ["3x15-20"]
     },
     {
       "data": "21/10/2025",
@@ -317,30 +119,6 @@
       "repeticoes": ["3x15"]
     },
     {
-      "data": "18/11/2025",
-      "cargas_kg": "6.25kg",
-      "tecnica": "Bi-set",
-      "repeticoes": ["3x15"]
-    },
-    {
-      "data": "11/11/2025",
-      "cargas_kg": "6.75kg (3.75kg nas 12 últimas reps)",
-      "tecnica": "Pico de Contração",
-      "repeticoes": ["3x20"]
-    },
-    {
-      "data": "5/11/2025",
-      "cargas_kg": "6.75kg.",
-      "tecnica": "Normal",
-      "repeticoes": ["3x12"]
-    },
-    {
-      "data": "28/10/2025",
-      "cargas_kg": "8.25kg na 1ª. 6.75kg no restante. 12x por série",
-      "tecnica": "Normal",
-      "repeticoes": ["3x12-15"]
-    },
-    {
       "data": "21/10/2025",
       "cargas_kg": "6.75kg. Última: 8.25kg",
       "tecnica": "Normal",
@@ -353,42 +131,6 @@
       "cargas_kg": "Peso Corporal",
       "tecnica": "Full (Completando com Tuck)",
       "repeticoes": ["3x15"]
-    },
-    {
-      "data": "25/11/2025",
-      "cargas_kg": "Peso Corporal",
-      "tecnica": "Full (Completando com Tuck)",
-      "repeticoes": ["3x15"]
-    },
-    {
-      "data": "20/11/2025",
-      "cargas_kg": "Peso corporal",
-      "tecnica": "Full",
-      "repeticoes": ["3x15"]
-    },
-    {
-      "data": "18/11/2025",
-      "cargas_kg": "Peso corporal",
-      "tecnica": "Bi-set",
-      "repeticoes": ["3x15"]
-    },
-    {
-      "data": "11/11/2025",
-      "cargas_kg": "Peso Corporal",
-      "tecnica": "Full",
-      "repeticoes": ["1x15, 2x10"]
-    },
-    {
-      "data": "5/11/2025",
-      "cargas_kg": "Peso Corporal",
-      "tecnica": "Full",
-      "repeticoes": ["1x12 + 2x10"]
-    },
-    {
-      "data": "28/10/2025",
-      "cargas_kg": "Peso Corporal",
-      "tecnica": "Full",
-      "repeticoes": ["3x10"]
     },
     {
       "data": "21/10/2025",
@@ -405,24 +147,6 @@
       "repeticoes": ["3x12"]
     },
     {
-      "data": "19/11/2025",
-      "cargas_kg": "17.5kg",
-      "tecnica": "TUT descida",
-      "repeticoes": ["3x15"]
-    },
-    {
-      "data": "14/11/2025",
-      "cargas_kg": "20kg",
-      "tecnica": "Bi-set, TUT descida",
-      "repeticoes": ["3x15"]
-    },
-    {
-      "data": "12/11/2025",
-      "cargas_kg": "barra 20kg",
-      "tecnica": "TUT 4s na descida",
-      "repeticoes": ["1x20, 3x15"]
-    },
-    {
       "data": "22/10/2025",
       "cargas_kg": "barra 20kg",
       "tecnica": "TUT 4s na descida",
@@ -435,30 +159,6 @@
       "cargas_kg": "30kg",
       "tecnica": "Transição",
       "repeticoes": ["3x15"]
-    },
-    {
-      "data": "19/11/2025",
-      "cargas_kg": "35kg",
-      "tecnica": "Bi-set",
-      "repeticoes": ["3x15"]
-    },
-    {
-      "data": "17/11/2025",
-      "cargas_kg": "35kg",
-      "tecnica": "Bi-set, Pico de contração",
-      "repeticoes": ["3x15"]
-    },
-    {
-      "data": "14/11/2025",
-      "cargas_kg": "30kg",
-      "tecnica": "Bi-set, Pico de contração",
-      "repeticoes": ["3x15"]
-    },
-    {
-      "data": "12/11/2025",
-      "cargas_kg": "30kg",
-      "tecnica": "Pico de Contração 2s",
-      "repeticoes": ["3x20"]
     },
     {
       "data": "22/10/2025",
@@ -475,20 +175,8 @@
       "repeticoes": ["3x15"]
     },
     {
-      "data": "19/11/2025",
-      "cargas_kg": "15kg",
-      "tecnica": "Bi-set",
-      "repeticoes": ["3x15"]
-    },
-    {
-      "data": "12/11/2025",
-      "cargas_kg": "15kg",
-      "tecnica": "Pico de Contração 2s",
-      "repeticoes": ["3x20"]
-    },
-    {
       "data": "22/10/2025",
-      "cargas_kg": "30kg",
+      "cargas_kg": "10kg",
       "tecnica": "Pico de Contração 2s",
       "repeticoes": ["3x15-20"]
     }
@@ -499,24 +187,6 @@
       "cargas_kg": "Peso corporal",
       "tecnica": "Reta",
       "repeticoes": ["3x20"]
-    },
-    {
-      "data": "17/11/2025",
-      "cargas_kg": "Peso corporal",
-      "tecnica": "Bi-set",
-      "repeticoes": ["3x20"]
-    },
-    {
-      "data": "12/11/2025",
-      "cargas_kg": "leg press - 35kg",
-      "tecnica": "Normal",
-      "repeticoes": ["4x20"]
-    },
-    {
-      "data": "22/10/2025",
-      "cargas_kg": "em pé - sem carga",
-      "tecnica": "Normal",
-      "repeticoes": ["4x15-20"]
     },
     {
       "data": "15/10/2025",
@@ -533,22 +203,10 @@
       "repeticoes": ["3x12"]
     },
     {
-      "data": "20/11/2025",
-      "cargas_kg": "26kg",
-      "tecnica": "Pico de Contração",
-      "repeticoes": ["3x15"]
-    },
-    {
-      "data": "13/11/2025",
-      "cargas_kg": "26kg, 33kg(final)",
-      "tecnica": "TUT 4s na descida",
-      "repeticoes": ["3x15"]
-    },
-    {
       "data": "23/10/2025",
-      "cargas_kg": "4x12/33kg",
+      "cargas_kg": "33kg",
       "tecnica": "TUT 4s",
-      "repeticoes": ["3x8-12"]
+      "repeticoes": ["4x12"]
     }
   ],
   "Remada Baixa (Sentado)": [
@@ -559,22 +217,10 @@
       "repeticoes": ["3x12"]
     },
     {
-      "data": "20/11/2025",
-      "cargas_kg": "13.25kg",
-      "tecnica": "Bi-set",
-      "repeticoes": ["3x15"]
-    },
-    {
-      "data": "13/11/2025",
-      "cargas_kg": "13.25kg",
-      "tecnica": "TUT 2s",
-      "repeticoes": ["3x15"]
-    },
-    {
       "data": "23/10/2025",
-      "cargas_kg": "3x (12, 12, 10 reps)/17.25kg",
+      "cargas_kg": "17.25kg",
       "tecnica": "Pausa 1s",
-      "repeticoes": ["3x10-12"]
+      "repeticoes": ["3x (12, 12, 10 reps)"]
     }
   ],
   "Pull Down (Corda)": [
@@ -585,22 +231,10 @@
       "repeticoes": ["3x15"]
     },
     {
-      "data": "20/11/2025",
-      "cargas_kg": "7.5kg",
-      "tecnica": "Bi-set",
-      "repeticoes": ["3x15"]
-    },
-    {
-      "data": "13/11/2025",
-      "cargas_kg": "7.5kg, 5kg DS",
-      "tecnica": "Drop Set",
-      "repeticoes": ["3x15 + 9 DS"]
-    },
-    {
       "data": "23/10/2025",
-      "cargas_kg": "3x12/6.75kg",
+      "cargas_kg": "6.75kg",
       "tecnica": "Normal",
-      "repeticoes": ["3x12-15"]
+      "repeticoes": ["3x12"]
     }
   ],
   "Rosca Direta (Barra W ou Halteres)": [
@@ -611,16 +245,10 @@
       "repeticoes": ["3x15"]
     },
     {
-      "data": "20/11/2025",
-      "cargas_kg": "10kg",
-      "tecnica": "Bi-set",
-      "repeticoes": ["3x15"]
-    },
-    {
       "data": "23/10/2025",
-      "cargas_kg": "3x12/6kg + DS (Barra W 10kg, 8 reps)",
+      "cargas_kg": "6kg + DS (Barra W 10kg, 8 reps)",
       "tecnica": "Drop-Set (DS)",
-      "repeticoes": ["3x10-15"]
+      "repeticoes": ["3x12"]
     }
   ],
   "Rosca Martelo (Halteres)": [
@@ -631,22 +259,10 @@
       "repeticoes": ["3x15"]
     },
     {
-      "data": "20/11/2025",
-      "cargas_kg": "4kg",
-      "tecnica": "Bi-set",
-      "repeticoes": ["3x15"]
-    },
-    {
-      "data": "13/11/2025",
-      "cargas_kg": "4kg, 3kg(DS)",
-      "tecnica": "Drop Set",
-      "repeticoes": ["3x15 + 10"]
-    },
-    {
       "data": "23/10/2025",
-      "cargas_kg": "3x12/4kg",
+      "cargas_kg": "4kg",
       "tecnica": "Normal",
-      "repeticoes": ["3x10-15"]
+      "repeticoes": ["3x12"]
     }
   ],
   "Remada Curvada (Halteres/Barra)": [
