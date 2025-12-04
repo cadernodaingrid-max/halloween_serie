@@ -43,8 +43,8 @@
   ],
   "Cadeira Flexora": [
     {
-      "data": "01/12/2025",
-      "cargas_kg": "25kg",
+      "data": "03/12/2025",
+      "cargas_kg": "25kg, 27.5kg",
       "tecnica": "Reta",
       "repeticoes": ["3x15"]
     },
@@ -141,10 +141,10 @@
   ],
   "Stiff (Com Halteres ou Barra)": [
     {
-      "data": "27/11/2025",
-      "cargas_kg": "15kg",
-      "tecnica": "Transição",
-      "repeticoes": ["3x12"]
+      "data": "03/12/2025",
+      "cargas_kg": "20kg, 25kg",
+      "tecnica": "Reta",
+      "repeticoes": ["3x10"]
     },
     {
       "data": "22/10/2025",
@@ -155,9 +155,9 @@
   ],
   "Cadeira Abdutora": [
     {
-      "data": "27/11/2025",
-      "cargas_kg": "30kg",
-      "tecnica": "Transição",
+      "data": "03/12/2025",
+      "cargas_kg": "35kg, 37.5kg, 40kg",
+      "tecnica": "Reta",
       "repeticoes": ["3x15"]
     },
     {
@@ -169,9 +169,9 @@
   ],
   "Glúteo no Cabo (Kickback)": [
     {
-      "data": "27/11/2025",
-      "cargas_kg": "10kg",
-      "tecnica": "Transição",
+      "data": "03/12/2025",
+      "cargas_kg": "15kg, 17.5kg",
+      "tecnica": "Reta",
       "repeticoes": ["3x15"]
     },
     {
@@ -341,9 +341,9 @@
   ],
   "Cadeira Adutora": [
     {
-      "data": "27/11/2025",
-      "cargas_kg": "30kg",
-      "tecnica": "Transição",
+      "data": "03/12/2025",
+      "cargas_kg": "40kg, 42.5kg",
+      "tecnica": "Reta",
       "repeticoes": ["3x15"]
     },
     {
