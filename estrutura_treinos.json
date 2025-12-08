@@ -10,11 +10,11 @@
       "Abdominal Máquina"
     ],
     "progresso_esperado": {
-        "Agachamento na Máquina Smith": "3x10. Carga aumentada.",
+        "Agachamento na Máquina Smith": "3x10. Tentar anilhas 10kg. TUT na descida (3-4s).",
         "Leg Press Horizontal": "3x12. Carga aumentada.",
-        "Cadeira Extensora": "3x15 - 30kg.",
-        "Cadeira Flexora": "3x15 - 25kg.",
-        "Panturrilha em Pé": "3x15. Inserir carga.",
+        "Cadeira Extensora": "3x15 - 30kg. Pico de Contração (1-2s)",
+        "Cadeira Flexora": "3x15 - 27.5kg.",
+        "Panturrilha em Pé": "3x15.",
         "Abdominal Máquina":"3x20. 25kg no mínimo."
     }
   },
