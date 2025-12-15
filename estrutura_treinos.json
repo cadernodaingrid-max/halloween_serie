@@ -11,10 +11,10 @@
     ],
     "progresso_esperado": {
         "Agachamento na Máquina Smith": "3x10. Tentar anilhas 10kg. TUT na descida (3-4s).",
-        "Leg Press Horizontal": "3x12. Carga aumentada.",
+        "Leg Press Horizontal": "3x12. Mín. 25kg de cada lado.",
         "Cadeira Extensora": "3x15 - 30kg. Pico de Contração (1-2s)",
         "Cadeira Flexora": "3x15 - 27.5kg.",
-        "Panturrilha em Pé": "3x15.",
+        "Panturrilha em Pé": "3x15. Tentar colocar carga.",
         "Abdominal Máquina":"3x20. 25kg no mínimo."
     }
   },
@@ -23,41 +23,37 @@
     "exercicios": [
       "Supino com Halteres",
       "Desenvolvimento Militar (Sentado com Halteres)",
-      "Elevação Lateral (Com Halteres ou Cabo)",
-      "Elevação Frontal",
       "Tríceps Pulley Alto Overhead",
-      "Face Pull",
-      "Elevação de Pernas"
+      "Elevação Lateral (Com Halteres ou Cabo)",
+      "Extensão de Punho (Antebraço)",
+      "Prancha Ventral"
     ],
     "progresso_esperado": {
-        "Supino com Halteres": "3x12. 8kg.",
-        "Desenvolvimento Militar (Sentado com Halteres)": "3x12. 6kg",
-        "Elevação Lateral (Com Halteres ou Cabo)": "3x15. 3kg",
-        "Tríceps Pulley Alto Overhead": "3x15. 6.25kg",
-        "Elevação de Pernas": "3x15.",
-        "Elevação Frontal": "3x15. 3kg",
-        "Face Pull": "3x15. 6.25kg"
+        "Supino com Halteres": "3x10. 10kg. Descida lenta (3s)",
+        "Desenvolvimento Militar (Sentado com Halteres)": "3x10. 7kg. Pico de contração no topo",
+        "Elevação Lateral (Com Halteres ou Cabo)": "3x15. 4kg. Rest-pause 10s -> 3-5reps",
+        "Tríceps Pulley Alto Overhead": "3x12. 6.25kg",
+        "Prancha Ventral": "3x60s.",
+        "Extensão de Punho (Antebraço)": "3x15"
     }
   },
   "treino_c": {
     "titulo": "Treino C: Membros Inferiores - Ênfase Posterior",
     "exercicios": [
       "Stiff (Com Halteres ou Barra)",
+      "Leg Press Horizontal",
       "Cadeira Flexora",
-      "Glúteo no Cabo (Kickback)",
-      "Cadeira Adutora",
       "Cadeira Abdutora",
-      "Hiperextensão Lombar",
+      "Glúteo no Cabo (Kickback)",
       "Panturrilha em Pé"
     ],
     "progresso_esperado": {
-        "Stiff (Com Halteres ou Barra)": "Aquecimento - 2x15 com carga leve. Treino principal: 3x10 com 20kg.",
-        "Cadeira Abdutora": "3x15. mínimo 35kg",
-        "Cadeira Flexora": "3x15. mínimo 25kg",
+        "Stiff (Com Halteres ou Barra)": "3x10. Foco na amplitude",
+        "Leg Press Horizontal": "3x12. Caprichar na carga. Pés altos (foco posterior)",
+        "Cadeira Abdutora": "3x20. Mínimo 35kg",
+        "Cadeira Flexora": "3x15. mínimo 27.5kg. Pico de contração 2s.",
         "Glúteo no Cabo (Kickback)": "3x15. mínimo 15kg",
-        "Hiperextensão Lombar": "3x15. Anilha 5kg",
-        "Panturrilha em Pé": "3x15. Fazer sentada - carga a ver.",
-        "Cadeira Adutora": "3x15. mínimo 35kg"
+        "Panturrilha em Pé": "3x15. Fazer sentada - carga máxima."
     }
   },
   "treino_d": {
@@ -66,38 +62,38 @@
       "Puxada na Polia Alta (Pegada Pronada)",
       "Remada Baixa (Sentado)",
       "Rosca Direta (Barra W ou Halteres)",
-      "Pull Down (Corda)",
       "Rosca Martelo (Halteres)",
+      "Tríceps Pulley (Barra V)",
       "Crucifixo Inverso",
       "Elevação de Pernas"
     ],
     "progresso_esperado": {
-      "Puxada na Polia Alta (Pegada Pronada)": "Aquecimento+ 3x10 com carga pesada",
-      "Remada Baixa (Sentado)": "3x10 com 15kg ou mais",
-      "Rosca Direta (Barra W ou Halteres)": "3x12 com 5kg",
-      "Pull Down (Corda)": "TRÍCEPS. 3x12 com 8.75kg",
+      "Puxada na Polia Alta (Pegada Pronada)": "Aquecimento+ 3x10 com carga pesada (33kg+)",
+      "Remada Baixa (Sentado)": "3x10 com 17.5kg ou mais. Pico de contração escapular",
+      "Rosca Direta (Barra W ou Halteres)": "3x12. Tentar Barra 12.5kg",
+      "Tríceps Pulley (Barra V)": "3x12. 8.75kg+",
       "Rosca Martelo (Halteres)": "3x15 com 4kg",
-      "Crucifixo Inverso": "3x15. Carga a definir",
+      "Crucifixo Inverso": "3x15. 17.5kg",
       "Elevação de Pernas": "3x15. Tudo Full"
     }
   },
   "treino_e": {
-    "titulo": "Treino E: Corpo Inteiro - Bi-Set",
+    "titulo": "Treino E: Corpo Inteiro",
     "exercicios": [
-      "Cadeira Extensora", 
-      "Remada Curvada (Halteres/Barra)", 
-      "Supino com Halteres", 
-      "Stiff (Com Halteres ou Barra)", 
-      "Elevação Lateral (Com Halteres ou Cabo)", 
-      "Cadeira Abdutora", 
-      "Prancha Ventral"
+      "Leg Press Horizontal",
+      "Cadeira Flexora",
+      "Supino com Halteres",
+      "Remada Baixa (Sentado)",
+      "Desenvolvimento Militar (Sentado com Halteres)",
+      "Abdominal Máquina"
     ],
     "progresso_esperado": {
-      "Cadeira Extensora": "Aumentar a carga para 35kg e focar no pico de contração.",
-      "Remada Curvada (Halteres/Barra)": "Tentar carga máxima com boa forma.",
-      "Supino com Halteres": "Aumentar para 10kg.",
-      "Stiff (Com Halteres ou Barra)": "Fazer TUT 4s e tentar aumentar a carga de 20kg.",
-      "Prancha Ventral": "Manter por 60s e focar na respiração."
+      "Leg Press Horizontal": "3x15.",
+      "Cadeira Flexora": "3x15.",
+      "Supino com Halteres": "3x15. Variar: Fazer na barra.",
+      "Remada Baixa (Sentado)": "3x15. Variar: Fazer na máquina reta",
+      "Desenvolvimento Militar (Sentado com Halteres)": "3x15. Variar: Fazer na máquina.",
+      "Abdominal Máquina": "3x15. Ou qualquer exercício de Core."
     }
   }
 }
