@@ -371,10 +371,18 @@
   ],
   "Abdominal Russo": [
     {
-      "data": "Sem registro",
-      "cargas_kg": "Sem registro",
-      "tecnica": "Sem registro",
-      "repeticoes": ["Sem registro"]
+      "data": " ",
+      "cargas_kg": " ",
+      "tecnica": " ",
+      "repeticoes": [" "]
+    }
+  ],
+  "Extensão de Punho (Antebraço)": [
+    {
+      "data": " ",
+      "cargas_kg": " ",
+      "tecnica": " ",
+      "repeticoes": [" "]
     }
   ]
 }
